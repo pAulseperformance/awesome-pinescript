@@ -22,7 +22,7 @@
 - [Frostybot-js](https://github.com/CryptoMF/frostybot-js) - *FrostyBot-JS is an API endpoint for REST and webhooks that is designed to receive API requests, such as Tradingview webhooks, and to submit them as orders to a cryptocurrency exchange.*
 
 ### Pine Script with PHP
-- [Frostybot-php](https://github.com/CryptoMF/frostybot-php) - *FrostyBot is a minimal endpoint that is designed to be used with webhooks in Tradingview alerts. It is designed to work cryptocurrency exchanges, specifically Bitmex, Deribit, FTX and Binance Futures *
+- [Frostybot-php](https://github.com/CryptoMF/frostybot-php) - *FrostyBot is a minimal endpoint that is designed to be used with webhooks in Tradingview alerts. It is designed to work cryptocurrency exchanges, specifically Bitmex, Deribit, FTX and Binance Futures*
 
 ### Pine Script with Google Chrome 
 - [Autoview Chrome Docker Bot](https://github.com/IAMtheIAM/autoview-tradingview-chrome-docker-bot) - *Dockerized Autoview Extension on a VPS.*
