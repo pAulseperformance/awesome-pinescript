@@ -9,8 +9,8 @@
 - [Strategies](#Strategies)
 - [Automated Order Execution](#Automation)
 - [Conventions & Rules](#Conventions-rules)
-- [Conventions & Rules](#Education)
-- [Conventions & Rules](#Other-Resources)
+- [Education](#Education)
+- [Other Resources](#Other-Resources)
 
 <a name="Official-Resources" />
 
