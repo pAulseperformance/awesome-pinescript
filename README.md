@@ -14,9 +14,12 @@
  - [Pine Script Indicators Collection](https://github.com/everget/tradingview-pinescript-indicators) - *A collection of various technical indicators.*
  ### Volume
  - [Raindrops](https://www.tradingview.com/script/dJr8hv4v-Raindrops-Makit0/) - *Custom Volume profiles on user defined periods.*
- ### Screeners
+ ### Screeners - Scan multiple charts with a single indicator
  #### Stocks
  - [Indices Sector](https://www.tradingview.com/script/B3aLMAHh-Indices-Sector-SigmaSpikes/) - *This screener aims to provide Bird-Eye view across sector indices, to find which sector is having significant or 'out-of-norm' move in either direction.*
+ ### Math
+ #### Options
+ - [Black Scholes](https://www.tradingview.com/script/dgMumvhd-Black-Scholes-Options-Pricing-Model/) - *The Black-Scholes model is a mathematical model used for pricing options. From this model you can derive the theoretical fair value of an options contract. Additionally, you can derive various risk parameters called Greeks. This indicator includes three types of data: Theoretical Option Price (blue), the Greeks (green), and implied volatility (red); their values are presented in that order.*
  
 ## Strategies
  - [Stop Loss and Take Profit](https://www.tradingview.com/script/IHVPG6TS-Stop-loss-and-Take-Profit-in-example/) - Educational
