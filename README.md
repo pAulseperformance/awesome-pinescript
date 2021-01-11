@@ -2,8 +2,6 @@
 **A Comprehensive Collection of Everything Related to Tradingview Pine Script.**
 
 ## Table of Contents
-
-### Pinescript
 - [Official Resources](#Official-Resources)
 - [Indicators](#Indicators)
 - [Strategies](#Strategies)
@@ -12,8 +10,9 @@
 - [Education](#Education)
 - [Other Resources](#Other-Resources)
 
-<a name="Official-Resources" />
 
+
+<a name="Official-Resources" />
 ## Official Resources
  - [Language Reference Manual](https://www.tradingview.com/pine-script-reference/v4/) - *An Index of built-in variables, functions and language operators.*
  - [Pine Script v4 User Manual](https://www.tradingview.com/pine-script-docs/en/v4/index.html) - *Official Documentation on Pine Script Version 4.*
@@ -23,8 +22,8 @@
  - [Editors Picks](https://www.tradingview.com/scripts/editors-picks/) *TV's curated list of best indicators*
 
 
-<a name="Indicators" />
 
+<a name="Indicators" />
 ## Indicators
    ### Collections
    - [Pine Script Indicators Collection](https://github.com/everget/tradingview-pinescript-indicators) - *A collection of various technical indicators.*
@@ -43,8 +42,8 @@
    - [Black Scholes](https://www.tradingview.com/script/dgMumvhd-Black-Scholes-Options-Pricing-Model/) - *The Black-Scholes model is a mathematical model used for pricing options. From this model you can derive the theoretical fair value of an options contract. Additionally, you can derive various risk parameters called Greeks. This indicator includes three types of data: Theoretical Option Price (blue), the Greeks (green), and implied volatility (red); their values are presented in that order.* #options
 
 
-<a name="Strategies" />
 
+<a name="Strategies" />
 ## Strategies
  - [Stop Loss and Take Profit](https://www.tradingview.com/script/IHVPG6TS-Stop-loss-and-Take-Profit-in-example/) - Educational
  - [Stepped Trailing Stop Loss](https://www.tradingview.com/script/jjhUHcje-Stepped-trailing-strategy-example/) - Educational
@@ -84,9 +83,11 @@ Need to automate your Pine script for real order execution?
 - [Writing A Description](https://www.pinecoders.com/techniques/script_description/)
 
 
+
 <a name="Education" />
 ## Education
 - [Digital Signal Processing](https://www.pinecoders.com/techniques/dsp/)
+
 
 
 <a name="Other-Resources" />
