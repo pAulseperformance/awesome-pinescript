@@ -42,6 +42,10 @@ Scan multiple charts with a single indicator
 ### Math
 - [Black Scholes](https://www.tradingview.com/script/dgMumvhd-Black-Scholes-Options-Pricing-Model/) - *The Black-Scholes model is a mathematical model used for pricing options. From this model you can derive the theoretical fair value of an options contract. Additionally, you can derive various risk parameters called Greeks. This indicator includes three types of data: Theoretical Option Price (blue), the Greeks (green), and implied volatility (red); their values are presented in that order.* #options
 
+### Tools
+ - [Script Stopwatch](https://www.tradingview.com/script/rRmrkRDr-Script-Stopwatch-PineCoders-FAQ/) - *Measure the performance of your scripts*
+ - [Filter Response](https://www.tradingview.com/script/oTEP9DJF-Filter-Information-Box-PineCoders-FAQ/) - *Analyze the characteristics of your filters, with DSP*
+
 
 
 <a name="Strategies" />
@@ -84,14 +88,16 @@ Need to automate your Pine script for real order execution?
 <a name="Conventions-rules" />
 
 ## Pine Script Conventions and Rules For Developers
-- [Writing A Description](https://www.pinecoders.com/techniques/script_description/)
-
+- [Writing A Good Description](https://www.pinecoders.com/techniques/script_description/) - *How to write a good description when publishing your Pine.*
+- [Writing Good Pine](https://www.pinecoders.com/coding_conventions/) - *How to write good clean code.*
+- [Script Moderation](https://www.tradingview.com/chart/SSP/bquN1v9X-Script-Moderation-Q-A/) - *How to not get banned.*
 
 
 <a name="Education" />
 
 ## Education
-- [Digital Signal Processing](https://www.pinecoders.com/techniques/dsp/)
+- [Digital Signal Processing](https://www.pinecoders.com/techniques/dsp/) - 
+- [FAQ](https://www.pinecoders.com/faq_and_code/) - *A powerful, curated list of frequently asked questions. Bookmark this.*
 
 
 
