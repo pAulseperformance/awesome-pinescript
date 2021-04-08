@@ -19,7 +19,7 @@
  - [Pine Script Chat Room](https://www.tradingview.com/chat/#BfmVowG1TZkKO235) - *TradingView public chat dedicated to Pine Script where active developers of the community help each other out.*
  - [TV Blog](https://www.tradingview.com/blog/en/category/market-analysis/pine/) - *Information about major releases and modifications to Pine Script (as well as other features.)*
  - [TV Public Scripts](https://www.tradingview.com/scripts/) - *TradingView’s Public Library contains all user-published scripts.*
- - [Editors Picks](https://www.tradingview.com/scripts/editors-picks/) *TV's curated list of best indicators*
+ - [Editors Picks](https://www.tradingview.com/scripts/editors-picks/) - *TV's curated list of best indicators*
 
 
 
@@ -110,3 +110,7 @@ Need to automate your Pine script for real order execution?
  - [Backtest Rookies](https://backtest-rookies.com/category/tradingview/) - *Good quality blog articles focusing on realizing specific tasks in Pine.*
  - [Stack Overflow](https://stackoverflow.com/questions/tagged/pine-script) - *Ask questions tagged with pine-script.* 
  
+ 
+## Contributing
+ - [Pine Script Docs](https://github.com/tradingview/pine_script_docs) - *Found a typo or a bug in the Official Pine Script Documentaion? Drop a PR here.*
+ - 
