@@ -64,7 +64,7 @@ Need to automate your Pine script for real order execution?
 ### Open Source
 #### Python
  - [Python Pine Bot Client](https://github.com/kzh-dev/pine-bot-client) - *Client implementation of trading bot that uses Pine Script and Python.*
-
+ - [Python TradingView TA](https://github.com/deathlyface/python-tradingview-ta) - *Unofficial TradingView technical analysis API wrapper.*
 #### Javascript
 - [Instabot Trader](https://github.com/instabot42/instabot-trader) - *Server Side bot that powers Alertatron. A simple tool to convert text messages sent over HTTP or via a Telegram bot into a set of trading orders, to a variety of exchanges (Bitfinex, Deribit and Coinbase Pro).*
 - [Frostybot-js](https://github.com/CryptoMF/frostybot-js) - *FrostyBot-JS is an API endpoint for REST and webhooks that is designed to receive API requests, such as Tradingview webhooks, and to submit them as orders to a cryptocurrency exchange.*
