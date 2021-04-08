@@ -9,6 +9,7 @@
 - [Conventions & Rules](#Conventions-rules)
 - [Education](#Education)
 - [Other Resources](#Other-Resources)
+- [Contributing](#Contributing)
 
 
 <a name="Official-Resources" />
@@ -65,6 +66,9 @@ Need to automate your Pine script for real order execution?
 #### Python
  - [Python Pine Bot Client](https://github.com/kzh-dev/pine-bot-client) - *Client implementation of trading bot that uses Pine Script and Python.*
  - [Python TradingView TA](https://github.com/deathlyface/python-tradingview-ta) - *Unofficial TradingView technical analysis API wrapper.*
+ - [Python Bybit Pine Bot](https://github.com/Mtemi/Bybit-Auto-Trading-Bot-Ordes-placed-via-TradingView-Webhook) - *Python based Trading Bot that uses TradingView.com webhook JSON alerts to place orders(buy/sell/close/manage positions/TP/SL/TS etc.) on Bybit.com.*
+
+
 #### Javascript
 - [Instabot Trader](https://github.com/instabot42/instabot-trader) - *Server Side bot that powers Alertatron. A simple tool to convert text messages sent over HTTP or via a Telegram bot into a set of trading orders, to a variety of exchanges (Bitfinex, Deribit and Coinbase Pro).*
 - [Frostybot-js](https://github.com/CryptoMF/frostybot-js) - *FrostyBot-JS is an API endpoint for REST and webhooks that is designed to receive API requests, such as Tradingview webhooks, and to submit them as orders to a cryptocurrency exchange.*
@@ -110,7 +114,9 @@ Need to automate your Pine script for real order execution?
  - [Backtest Rookies](https://backtest-rookies.com/category/tradingview/) - *Good quality blog articles focusing on realizing specific tasks in Pine.*
  - [Stack Overflow](https://stackoverflow.com/questions/tagged/pine-script) - *Ask questions tagged with pine-script.* 
  
- 
+
+<a name="Contributing" />
+
 ## Contributing
  - [Pine Script Docs](https://github.com/tradingview/pine_script_docs) - *Found a typo or a bug in the Official Pine Script Documentaion? Drop a PR here.*
- - 
+ 
