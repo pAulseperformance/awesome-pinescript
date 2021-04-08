@@ -67,11 +67,11 @@ Need to automate your Pine script for real order execution?
  - [Python Pine Bot Client](https://github.com/kzh-dev/pine-bot-client) - *Client implementation of trading bot that uses Pine Script and Python.*
  - [Python TradingView TA](https://github.com/deathlyface/python-tradingview-ta) - *Unofficial TradingView technical analysis API wrapper.*
  - [Python Bybit Pine Bot](https://github.com/Mtemi/Bybit-Auto-Trading-Bot-Ordes-placed-via-TradingView-Webhook) - *Python based Trading Bot that uses TradingView.com webhook JSON alerts to place orders(buy/sell/close/manage positions/TP/SL/TS etc.) on Bybit.com.*
-
+ 
 
 #### Javascript
 - [Instabot Trader](https://github.com/instabot42/instabot-trader) - *Server Side bot that powers Alertatron. A simple tool to convert text messages sent over HTTP or via a Telegram bot into a set of trading orders, to a variety of exchanges (Bitfinex, Deribit and Coinbase Pro).*
-- [Frostybot-js](https://github.com/CryptoMF/frostybot-js) - *FrostyBot-JS is an API endpoint for REST and webhooks that is designed to receive API requests, such as Tradingview webhooks, and to submit them as orders to a cryptocurrency exchange.*
+- [Frostybot-js](https://github.com/CryptoMF/frostybot-js) - *Frostybot-JS is a cryptocurrency trading API endpoint, designed to execute webhook or REST requests as orders on a variety of well-known exchanges. While primarily designed to automate your Tradingview strategies, Frostybot can also be integrated with any other software using webhooks or REST. Bitmex, FTX, Deribit and Binance are supported.*
 
 #### PHP
 - [Frostybot-php](https://github.com/CryptoMF/frostybot-php) - *FrostyBot is a minimal endpoint that is designed to be used with webhooks in Tradingview alerts. It is designed to work cryptocurrency exchanges, specifically Bitmex, Deribit, FTX and Binance Futures*
@@ -86,7 +86,7 @@ Need to automate your Pine script for real order execution?
 - [Cryptohopper](https://www.cryptohopper.com/) - *Use Cryptohopper with the TradingView webhook URL to send TV alerts to your bots, for automated order execution on one or multiple exchanges.*
 - [ProfitView](https://wiki.profitview.app/home) - *Google Chrome extension that receives TV alerts and relays orders to crypto exchanges. Among PineCoders, has the reputation of being better than AutoView.*
 - [TradingConnector](https://www.tradingconnector.com/) - *TradingView alerts to MT4/MT5 receives TV alerts and converts them into instant orders on MT4/MT5 in forex, indices and commodities markets. Latency is below 1 second.*
-
+- [Fundingrate](https://github.com/tacyarg/fundingrate.io) - *Fundingrate is a software as a service platform that allows vendors to collect empirical data on live market conditions.* 
 
 
 <a name="Conventions-rules" />
