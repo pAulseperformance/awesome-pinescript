@@ -54,7 +54,7 @@ Scan multiple charts with a single indicator
 ## Strategies
  - [Stop Loss and Take Profit](https://www.tradingview.com/script/IHVPG6TS-Stop-loss-and-Take-Profit-in-example/) - Educational
  - [Stepped Trailing Stop Loss](https://www.tradingview.com/script/jjhUHcje-Stepped-trailing-strategy-example/) - Educational
- 
+ - [Portfolio Backtesting Engine](https://www.tradingview.com/script/fhTLDun5-Portfolio-Backtester-Engine/) - Portfolio Backtesting
  
  
 <a name="Automation" />
