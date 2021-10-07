@@ -101,8 +101,9 @@ Need to automate your Pine script for real order execution?
 <a name="Education" />
 
 ## Education
-- [Digital Signal Processing](https://www.pinecoders.com/techniques/dsp/) - 
+- [Digital Signal Processing](https://www.pinecoders.com/techniques/dsp/) - *Digital Signal Procession Techniques in Pine.*
 - [FAQ](https://www.pinecoders.com/faq_and_code/) - *A powerful, curated list of frequently asked questions. Bookmark this.*
+- [What is Repainting?](https://www.tradingview.com/pine-script-docs/en/v5/concepts/Repainting.html) - *It's not fun. You should learn about it.*
 
 
 
