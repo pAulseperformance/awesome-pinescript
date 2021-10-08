@@ -88,6 +88,7 @@ Need to automate your Pine script for real order execution?
 - [AutoView](https://autoview.with.pink/) - *Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.*
 - [Cryptohopper](https://www.cryptohopper.com/) - *Use Cryptohopper with the TradingView webhook URL to send TV alerts to your bots, for automated order execution on one or multiple exchanges.*
 - [ProfitView](https://wiki.profitview.app/home) - *Google Chrome extension that receives TV alerts and relays orders to crypto exchanges. Among PineCoders, has the reputation of being better than AutoView.*
+- [Pine Connector](https://www.pineconnector.com/) - *Auto-execute your TradingView alerts to MetaTrader 4 & 5*
 - [TradingConnector](https://www.tradingconnector.com/) - *TradingView alerts to MT4/MT5 receives TV alerts and converts them into instant orders on MT4/MT5 in forex, indices and commodities markets. Latency is below 1 second.*
 - [Fundingrate](https://github.com/tacyarg/fundingrate.io) - *Fundingrate is a software as a service platform that allows vendors to collect empirical data on live market conditions.* 
 
