@@ -47,6 +47,7 @@ Scan multiple charts with a single indicator
 ### Tools
  - [Script Stopwatch](https://www.tradingview.com/script/rRmrkRDr-Script-Stopwatch-PineCoders-FAQ/) - *Measure the performance of your scripts*
  - [Filter Response](https://www.tradingview.com/script/oTEP9DJF-Filter-Information-Box-PineCoders-FAQ/) - *Analyze the characteristics of your filters, with DSP*
+ - [Signal Generator](https://www.tradingview.com/script/p3Bqr6fq-pp-Signal-Generator/) - *Debug and test indicators and strategies that accept exernal inputs.*
 
 
 
