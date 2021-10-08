@@ -83,6 +83,7 @@ Need to automate your Pine script for real order execution?
 - [Autoview Chrome Docker Bot](https://github.com/IAMtheIAM/autoview-tradingview-chrome-docker-bot) - *Dockerized Autoview Extension on a VPS.*
 
 ### Closed Source
+- [TradingView Hub](https://www.tv-hub.org/) - *Free For Testnets! Start automating your strategies & alerts with an easy and intuitive UI.*
 - [3Commas](https://3commas.io/) - *Can receive TV alerts and connect them to their bots to execute simple orders on crypto exchanges.*
 - [Alertatron](https://alertatron.com/) - *A service that allows you to relay TradingView alerts to Telegram, Discord, Slack, Email or webhooks, with a chart snapshot attached. The developer is well-known in the PineCoders community.*
 - [AutoView](https://autoview.with.pink/) - *Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.*
