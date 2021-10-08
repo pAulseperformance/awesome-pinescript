@@ -86,7 +86,7 @@ Need to automate your Pine script for real order execution?
 - [TradingView Hub](https://www.tv-hub.org/) - *Free For Testnets! Start automating your strategies & alerts with an easy and intuitive UI.*
 - [3Commas](https://3commas.io/) - *Can receive TV alerts and connect them to their bots to execute simple orders on crypto exchanges.*
 - [Alertatron](https://alertatron.com/) - *A service that allows you to relay TradingView alerts to Telegram, Discord, Slack, Email or webhooks, with a chart snapshot attached. The developer is well-known in the PineCoders community.*
-- [AutoView](https://autoview.with.pink/) - *Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.*
+- [AutoView](https://autoview.with.pink/) - *Free For Testnets! Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.*
 - [Cryptohopper](https://www.cryptohopper.com/) - *Use Cryptohopper with the TradingView webhook URL to send TV alerts to your bots, for automated order execution on one or multiple exchanges.*
 - [ProfitView](https://wiki.profitview.app/home) - *Google Chrome extension that receives TV alerts and relays orders to crypto exchanges. Among PineCoders, has the reputation of being better than AutoView.*
 - [Pine Connector](https://www.pineconnector.com/) - *Auto-execute your TradingView alerts to MetaTrader 4 & 5*
