@@ -5,6 +5,7 @@
 - [Official Resources](#Official-Resources)
 - [Indicators](#Indicators)
 - [Strategies](#Strategies)
+- [Libraries](#Libraries)
 - [Automated Order Execution](#Automation)
 - [Conventions & Rules](#Conventions-rules)
 - [Education](#Education)
@@ -58,7 +59,10 @@ Scan multiple charts with a single indicator
  - [Stepped Trailing Stop Loss](https://www.tradingview.com/script/jjhUHcje-Stepped-trailing-strategy-example/) - Educational
  - [Portfolio Backtesting Engine](https://www.tradingview.com/script/fhTLDun5-Portfolio-Backtester-Engine/) - Portfolio Backtesting
  
- 
+
+<a name="Libraries" />
+ - [Script Stopwatch](https://www.tradingview.com/script/xTHx0lQy-LibraryStopwatch/) - *Measure the performance of your scripts*
+
 <a name="Automation" />
 
 ## Automated Order Execution
