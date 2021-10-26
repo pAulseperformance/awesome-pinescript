@@ -61,7 +61,10 @@ Scan multiple charts with a single indicator
  
 
 <a name="Libraries" />
+
+## Libraries
  - [Script Stopwatch](https://www.tradingview.com/script/xTHx0lQy-LibraryStopwatch/) - *Measure the performance of your scripts*
+
 
 <a name="Automation" />
 
