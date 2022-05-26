@@ -105,6 +105,7 @@ Need to automate your Pine script for real order execution?
 - [Traders Post](https://traderspost.io) - *Stocks and Options and Paper trading with TradingView Webhooks* 
 - [Tuned](https://app.tuned.com) - *Use PineScript to run fully-automated batch experiments with powerful backtesting, paper trading, and even live trading.*
 - [TV Hub](https://www.tv-hub.org/) - *Convert every TradingView alert into a trade within seconds.*
+- [Capitalise.ai](https://capitalise.ai/) - *Code Free Trading Automation that accepts simple [TV Webhook Automation](https://support.capitalise.ai/en/articles/5638761-using-tradingview-alerts-to-trigger-strategies)*
  
 
 <a name="Conventions-rules" />
