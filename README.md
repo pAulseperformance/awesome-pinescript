@@ -93,7 +93,6 @@ Need to automate your Pine script for real order execution?
 - [Autoview Chrome Docker Bot](https://github.com/IAMtheIAM/autoview-tradingview-chrome-docker-bot) - *Dockerized Autoview Extension on a VPS.*
 
 ### Closed Source
-- [TradingView Hub](https://www.tv-hub.org/) - *Free For Testnets! Start automating your strategies & alerts with an easy and intuitive UI.*
 - [3Commas](https://3commas.io/) - *Can receive TV alerts and connect them to their bots to execute simple orders on crypto exchanges.*
 - [Alertatron](https://alertatron.com/) - *A service that allows you to relay TradingView alerts to Telegram, Discord, Slack, Email or webhooks, with a chart snapshot attached. The developer is well-known in the PineCoders community.*
 - [AutoView](https://autoview.with.pink/) - *Free For Testnets! Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.*
@@ -103,6 +102,8 @@ Need to automate your Pine script for real order execution?
 - [Pine Connector](https://www.pineconnector.com/) - *Auto-execute your TradingView alerts to MetaTrader 4 & 5*
 - [PSStrategyX](https://pinescriptstrategy.com/psstrategyx/) - *Pine Script Indicator that automatically connects to AutoView so you don't have to write alert syntax.*
 - [TradingConnector](https://www.tradingconnector.com/) - *TradingView alerts to MT4/MT5 receives TV alerts and converts them into instant orders on MT4/MT5 in forex, indices and commodities markets. Latency is below 1 second.*
+- [TradingView.to](https://tradingview.to/) - *The simplest, most affordable and reliable automation tool*
+- [TradingView Hub](https://www.tv-hub.org/) - *Free For Testnets! Start automating your strategies & alerts with an easy and intuitive UI.*
 - [Fundingrate](https://github.com/tacyarg/fundingrate.io) - *Fundingrate is a software as a service platform that allows vendors to collect empirical data on live market conditions.* 
 - [Webook Alerts](https://webhookalerts.com/) - *Send all your TradingView alerts to Telegram, Discord, Slack and Twitter along with a full screenshot of the chart*
 - [Traders Post](https://traderspost.io) - *Stocks and Options and Paper trading with TradingView Webhooks* 
