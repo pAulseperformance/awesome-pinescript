@@ -30,18 +30,31 @@
 <a name="Indicators" />
 
 ## Indicators
+### Interesting
+- [Flag Finder](https://www.tradingview.com/script/DU228Vjm-Flag-Finder/) - *Flag Finder Indicator is a technical analysis tool to identify bull and bear flags.*
+- [Developing Market Profile](https://www.tradingview.com/script/XMKe97Vn-Developing-Market-Profile-TPO-Honestcowboy/) - *Developing Market Profile will change bar by bar and display PRICE in relation to TIME for a user specified number of past bars.*
+- [Cycles Analysis](https://www.tradingview.com/script/fqnXJggs-Cycles-Analysis/) - *Gives a visual representation of bull/bear markets and gives a prediction based on the previous data. *
+- [ICT Killzones Pivots TFO](https://www.tradingview.com/script/nW5oGfdO-ICT-Killzones-Pivots-TFO/) - *the purpose of this script is to identify ICT Killzones while also storing their highs and lows for future reference, until traded through.*
+- [Trend Correlation Heatmap](https://www.tradingview.com/script/96Cld5iS-Trend-Correlation-Heatmap/) - *This indicator displays the correlation of different assets over several timeframes on the chart.*
+- [TTP VIX Spy](https://www.tradingview.com/script/Rv3pibXO-TTP-VIX-Spy/) - *TTP VIX Spy is an indicator that uses data from VIX to better time entries in the market.*
+
+
 ### Collections
 - [Pine Script Indicators Collection](https://github.com/everget/tradingview-pinescript-indicators) - *A collection of various technical indicators.*
 - [Pine Coders Publications](https://www.tradingview.com/u/PineCoders/#published-scripts) - *A plethora of useful techniques developed by the Pine Coders Account*
 
 ### Volume
 - [Raindrops](https://www.tradingview.com/script/dJr8hv4v-Raindrops-Makit0/) - *Custom Volume profiles on user defined periods.*
+- [Liquidity Sentiment Profile](https://www.tradingview.com/script/asr7nOb2-Liquidity-Sentiment-Profile-LuxAlgo/) - *The Liquidity Sentiment Profile is an advanced charting tool that measures by combining PRICE and VOLUME data over specified anchored periods and highlights within a sequence of profiles the distribution of the liquidity and the market sentiment at specific price levels.*
 
 ### Screeners
 Scan multiple charts with a single indicator
 
 - [Indices Sector Sigma Spikes](https://www.tradingview.com/script/B3aLMAHh-Indices-Sector-SigmaSpikes/) - *This screener aims to provide Bird-Eye view across sector indices, to find which sector is having significant or 'out-of-norm' move in either direction.* #stocks
 - [Mean Reversion Channel](https://www.tradingview.com/script/Lr5QD0kK-Screener-Mean-Reversion-Channel/) - *The screener works by scanning through up to 40 symbols and list down symbols that are currently within Overbought/Oversold Zone as defined by Mean Reversion Channel indicator.*
+- [120 ticker Screener](https://www.tradingview.com/script/0h0gKNcy-120x-ticker-screener-composite-tickers/) - *In specific circumstances, it is possible to extract data, far above the 40 `request.*()` call limit for 1 single script .
+The following technique uses composite tickers. Changing tickers needs to be done in the code itself as will be explained further.
+*
 
 ### Math
 - [Black Scholes](https://www.tradingview.com/script/dgMumvhd-Black-Scholes-Options-Pricing-Model/) - *The Black-Scholes model is a mathematical model used for pricing options. From this model you can derive the theoretical fair value of an options contract. Additionally, you can derive various risk parameters called Greeks. This indicator includes three types of data: Theoretical Option Price (blue), the Greeks (green), and implied volatility (red); their values are presented in that order.* #options
@@ -50,6 +63,8 @@ Scan multiple charts with a single indicator
  - [Script Stopwatch](https://www.tradingview.com/script/rRmrkRDr-Script-Stopwatch-PineCoders-FAQ/) - *Measure the performance of your scripts*
  - [Filter Response](https://www.tradingview.com/script/oTEP9DJF-Filter-Information-Box-PineCoders-FAQ/) - *Analyze the characteristics of your filters, with DSP*
  - [Signal Generator](https://www.tradingview.com/script/p3Bqr6fq-pp-Signal-Generator/) - *Debug and test indicators and strategies that accept exernal inputs.*
+- [Interactive Motive Wave Checklist](https://www.tradingview.com/script/ypAxpurY-Interactive-Motive-Wave-Checklist/) - *an interactive tool that can be used for learning a bit about Elliott Waves*
+- [Textmate Language for Pine Script v5 2023-05](https://www.tradingview.com/script/O6LCkLTf-Textmate-Language-for-Pine-Script-v5-2023-05/) - *Syntax Highlighter for Textmate vscode*
 
 
 
