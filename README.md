@@ -43,6 +43,7 @@
 ### Collections
 - [Pine Script Indicators Collection](https://github.com/everget/tradingview-pinescript-indicators) - *A collection of various technical indicators.*
 - [Pine Coders Publications](https://www.tradingview.com/u/PineCoders/#published-scripts) - *A plethora of useful techniques developed by the Pine Coders Account*
+- [Pine Script To ThinkScript Repo](https://github.com/bingit2/TradingView-to-ThinkorSwim) - *Repository of Pine Script Indicators converted to TOS ThinkScript*
 
 ### Volume
 - [Raindrops](https://www.tradingview.com/script/dJr8hv4v-Raindrops-Makit0/) - *Custom Volume profiles on user defined periods.*
