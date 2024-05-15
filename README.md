@@ -125,7 +125,7 @@ Need to automate your Pine script for real order execution?
 - [TradingView Hub](https://www.tv-hub.org/) - *Free For Testnets! Start automating your strategies & alerts with an easy and intuitive UI.*
 - [Fundingrate](https://github.com/tacyarg/fundingrate.io) - *Fundingrate is a software as a service platform that allows vendors to collect empirical data on live market conditions.* 
 - [Webook Alerts](https://webhookalerts.com/) - *Send all your TradingView alerts to Telegram, Discord, Slack and Twitter along with a full screenshot of the chart*
-- [Traders Post](https://traderspost.io) - *Stocks and Options and Paper trading with TradingView Webhooks* 
+- [TradersPost](https://traderspost.io) - *Stocks, Options, Futures, Crypto and Paper trading with TradingView Webhooks* 
 - [Tuned](https://app.tuned.com) - *Use PineScript to run fully-automated batch experiments with powerful backtesting, paper trading, and even live trading.*
 - [TV Hub](https://www.tv-hub.org/) - *Convert every TradingView alert into a trade within seconds.*
 - [Capitalise.ai](https://capitalise.ai/) - *Code Free Trading Automation that accepts simple [TV Webhook Automation](https://support.capitalise.ai/en/articles/5638761-using-tradingview-alerts-to-trigger-strategies)*
