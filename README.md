@@ -113,15 +113,16 @@ Need to automate your Pine script for real order execution?
 
 ### Closed Source
 - [3Commas](https://3commas.io/) - *Can receive TV alerts and connect them to their bots to execute simple orders on crypto exchanges.*
+- [Pineify](https://pineify.app/) - *Pineify is a tool for tradingview traders that allows them to build TradingView indicators through visualization tools. Without the need for programming skills.*
 - [Alertatron](https://alertatron.com/) - *A service that allows you to relay TradingView alerts to Telegram, Discord, Slack, Email or webhooks, with a chart snapshot attached. The developer is well-known in the PineCoders community.*
 - [AutoView](https://autoview.with.pink/) - *Free For Testnets! Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.*
 - [Capitalise.ai](https://capitalise.ai/) - *Code Free Trading Automation that accepts simple [TV Webhook Automation](https://support.capitalise.ai/en/articles/5638761-using-tradingview-alerts-to-trigger-strategies)*
+- [Cornix](https://cornix.io/) - *Automated crypto trading for everyone*
 - [Cryptohopper](https://www.cryptohopper.com/) - *Use Cryptohopper with the TradingView webhook URL to send TV alerts to your bots, for automated order execution on one or multiple exchanges.*
 - [Fundingrate](https://github.com/tacyarg/fundingrate.io) - *Fundingrate is a software as a service platform that allows vendors to collect empirical data on live market conditions.* 
 - [Mizar](https://www.mizar.com/) - *Can run your TV strategies via webhooks with the fast and reliable execution across several crypto exchanges.*
 - [ProfitView](https://wiki.profitview.app/home) - *Google Chrome extension that receives TV alerts and relays orders to crypto exchanges. Among PineCoders, has the reputation of being better than AutoView.*
 - [Pine Connector](https://www.pineconnector.com/) - *Auto-execute your TradingView alerts to MetaTrader 4 & 5*
-- [Pineify](https://pineify.app/) - *Pineify is a tool for tradingview traders that allows them to build TradingView indicators through visualization tools. Without the need for programming skills.*
 - [PSStrategyX](https://pinescriptstrategy.com/psstrategyx/) - *Pine Script Indicator that automatically connects to AutoView so you don't have to write alert syntax.*
 - [TradingConnector](https://www.tradingconnector.com/) - *TradingView alerts to MT4/MT5 receives TV alerts and converts them into instant orders on MT4/MT5 in forex, indices and commodities markets. Latency is below 1 second.*
 - [TradingView.to](https://tradingview.to/) - *The simplest, most affordable and reliable automation tool*
