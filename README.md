@@ -115,6 +115,7 @@ Need to automate your Pine script for real order execution?
 - [3Commas](https://3commas.io/) - *Can receive TV alerts and connect them to their bots to execute simple orders on crypto exchanges.*
 - [Pineify](https://pineify.app/) - *Pineify is a tool for tradingview traders that allows them to build TradingView indicators through visualization tools. Without the need for programming skills.*
 - [Alertatron](https://alertatron.com/) - *A service that allows you to relay TradingView alerts to Telegram, Discord, Slack, Email or webhooks, with a chart snapshot attached. The developer is well-known in the PineCoders community.*
+- [Altrady](https://www.altrady.com/features/signal-bot) - *You can run pine script strategies on TradingView that will automatically open positions based on the signal. *
 - [AutoView](https://autoview.with.pink/) - *Free For Testnets! Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.*
 - [Cornix](https://cornix.io/) - *Automated crypto trading for everyone*
 - [Cryptohopper](https://www.cryptohopper.com/) - *Use Cryptohopper with the TradingView webhook URL to send TV alerts to your bots, for automated order execution on one or multiple exchanges.*
