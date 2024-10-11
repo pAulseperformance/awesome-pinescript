@@ -113,7 +113,6 @@ Need to automate your Pine script for real order execution?
 
 ### Closed Source
 - [3Commas](https://3commas.io/) - *Can receive TV alerts and connect them to their bots to execute simple orders on crypto exchanges.*
-- [Pineify](https://pineify.app/) - *Pineify is a tool for tradingview traders that allows them to build TradingView indicators through visualization tools. Without the need for programming skills.*
 - [Alertatron](https://alertatron.com/) - *A service that allows you to relay TradingView alerts to Telegram, Discord, Slack, Email or webhooks, with a chart snapshot attached. The developer is well-known in the PineCoders community.*
 - [Altrady](https://www.altrady.com/features/signal-bot) - *You can run pine script strategies on TradingView that will automatically open positions based on the signal. *
 - [AutoView](https://autoview.with.pink/) - *Free For Testnets! Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.*
@@ -121,6 +120,7 @@ Need to automate your Pine script for real order execution?
 - [Cryptohopper](https://www.cryptohopper.com/) - *Use Cryptohopper with the TradingView webhook URL to send TV alerts to your bots, for automated order execution on one or multiple exchanges.*
 - [Mizar](https://www.mizar.com/) - *Can run your TV strategies via webhooks with the fast and reliable execution across several crypto exchanges.*
 - [ProfitView](https://wiki.profitview.app/home) - *Google Chrome extension that receives TV alerts and relays orders to crypto exchanges. Among PineCoders, has the reputation of being better than AutoView.*
+- [Pineify](https://pineify.app/) - *Pineify is a tool for tradingview traders that allows them to build TradingView indicators through visualization tools. Without the need for programming skills.*
 - [Pine Connector](https://www.pineconnector.com/) - *Auto-execute your TradingView alerts to MetaTrader 4 & 5*
 - [PSStrategyX](https://pinescriptstrategy.com/psstrategyx/) - *Pine Script Indicator that automatically connects to AutoView so you don't have to write alert syntax.*
 - [TradingConnector](https://www.tradingconnector.com/) - *TradingView alerts to MT4/MT5 receives TV alerts and converts them into instant orders on MT4/MT5 in forex, indices and commodities markets. Latency is below 1 second.*
