@@ -76,6 +76,7 @@ The following technique uses composite tickers. Changing tickers needs to be don
  - [Stop Loss and Take Profit](https://www.tradingview.com/script/IHVPG6TS-Stop-loss-and-Take-Profit-in-example/) - Educational
  - [Stepped Trailing Stop Loss](https://www.tradingview.com/script/jjhUHcje-Stepped-trailing-strategy-example/) - Educational
  - [Portfolio Backtesting Engine](https://www.tradingview.com/script/fhTLDun5-Portfolio-Backtester-Engine/) - Portfolio Backtesting
+
  
 
 <a name="Libraries" />
@@ -116,23 +117,25 @@ Need to automate your Pine script for real order execution?
 - [Alertatron](https://alertatron.com/) - *A service that allows you to relay TradingView alerts to Telegram, Discord, Slack, Email or webhooks, with a chart snapshot attached. The developer is well-known in the PineCoders community.*
 - [Altrady](https://www.altrady.com/features/signal-bot) - *You can run pine script strategies on TradingView that will automatically open positions based on the signal. *
 - [AutoView](https://autoview.with.pink/) - *Free For Testnets! Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.*
+ - [Capitalise.ai](https://capitalise.ai/) - *Code Free Trading Automation that accepts simple [TV Webhook Automation](https://support.capitalise.ai/en/articles/5638761-using-tradingview-alerts-to-trigger-strategies)*
 - [Cornix](https://cornix.io/) - *Automated crypto trading for everyone*
 - [Cryptohopper](https://www.cryptohopper.com/) - *Use Cryptohopper with the TradingView webhook URL to send TV alerts to your bots, for automated order execution on one or multiple exchanges.*
+- [Fundingrate](https://github.com/tacyarg/fundingrate.io) - *Fundingrate is a software as a service platform that allows vendors to collect empirical data on live market conditions.* 
 - [Mizar](https://www.mizar.com/) - *Can run your TV strategies via webhooks with the fast and reliable execution across several crypto exchanges.*
-- [ProfitView](https://wiki.profitview.app/home) - *Google Chrome extension that receives TV alerts and relays orders to crypto exchanges. Among PineCoders, has the reputation of being better than AutoView.*
 - [Pineify](https://pineify.app/) - *Pineify is a tool for tradingview traders that allows them to build TradingView indicators through visualization tools. Without the need for programming skills.*
 - [Pine Connector](https://www.pineconnector.com/) - *Auto-execute your TradingView alerts to MetaTrader 4 & 5*
+- [ProfitView](https://wiki.profitview.app/home) - *Google Chrome extension that receives TV alerts and relays orders to crypto exchanges. Among PineCoders, has the reputation of being better than AutoView.*
 - [PSStrategyX](https://pinescriptstrategy.com/psstrategyx/) - *Pine Script Indicator that automatically connects to AutoView so you don't have to write alert syntax.*
+- [Tickerly](https://tickerly.net/?partner=1898) - *Tickerly’s fast and flexible service enables you to effortlessly automate any strategy on forex, stock, futures or cryptocurrency assets.* 
 - [TradingConnector](https://www.tradingconnector.com/) - *TradingView alerts to MT4/MT5 receives TV alerts and converts them into instant orders on MT4/MT5 in forex, indices and commodities markets. Latency is below 1 second.*
 - [TradingView.to](https://tradingview.to/) - *The simplest, most affordable and reliable automation tool*
 - [TradingView Hub](https://www.tv-hub.org/) - *Free For Testnets! Start automating your strategies & alerts with an easy and intuitive UI.*
-- [Fundingrate](https://github.com/tacyarg/fundingrate.io) - *Fundingrate is a software as a service platform that allows vendors to collect empirical data on live market conditions.* 
-- [Webook Alerts](https://webhookalerts.com/) - *Send all your TradingView alerts to Telegram, Discord, Slack and Twitter along with a full screenshot of the chart*
-- [TradersPost](https://traderspost.io) - *Stocks, Options, Futures, Crypto and Paper trading with TradingView Webhooks* 
+- [TradersPost](https://traderspost.io/?via=1) - *Stocks, Options, Futures, Crypto and Paper trading with TradingView Webhooks*
+- [Tradelab.ai](https://tradelab.ai/) - *Free TradingView Bot Builder.Build the strategy you want. No compromises. No code skills required. Get started for free.*
 - [Tuned](https://app.tuned.com) - *Use PineScript to run fully-automated batch experiments with powerful backtesting, paper trading, and even live trading.*
 - [TV Hub](https://www.tv-hub.org/) - *Convert every TradingView alert into a trade within seconds.*
-- [Capitalise.ai](https://capitalise.ai/) - *Code Free Trading Automation that accepts simple [TV Webhook Automation](https://support.capitalise.ai/en/articles/5638761-using-tradingview-alerts-to-trigger-strategies)*
-- [Tradelab.ai](https://tradelab.ai/) - *Free TradingView Bot Builder.Build the strategy you want. No compromises. No code skills required. Get started for free.*
+- [Webook Alerts](https://webhookalerts.com/) - *Send all your TradingView alerts to Telegram, Discord, Slack and Twitter along with a full screenshot of the chart*
+
  
 
 <a name="Conventions-rules" />
