@@ -129,6 +129,7 @@ Need to automate your Pine script for real order execution?
 - [PSStrategyX](https://pinescriptstrategy.com/psstrategyx/) - *Pine Script Indicator that automatically connects to AutoView so you don't have to write alert syntax.*
 - [Tickerly](https://tickerly.net/?partner=1898) - *Tickerly’s fast and flexible service enables you to effortlessly automate any strategy on forex, stock, futures or cryptocurrency assets.* 
 - [TradingConnector](https://www.tradingconnector.com/) - *TradingView alerts to MT4/MT5 receives TV alerts and converts them into instant orders on MT4/MT5 in forex, indices and commodities markets. Latency is below 1 second.*
+- [PickMyTrade](https://pickmytrade.trade/) - *PickMyTrade empowers traders by automating TradingView strategies/Indicator for futures, seamlessly connecting TradingView with Tradovate and Rithmic*
 - [TradingView.to](https://tradingview.to/) - *The simplest, most affordable and reliable automation tool*
 - [TradingView Hub](https://www.tv-hub.org/) - *Free For Testnets! Start automating your strategies & alerts with an easy and intuitive UI.*
 - [TradersPost](https://traderspost.io/?via=1) - *Stocks, Options, Futures, Crypto and Paper trading with TradingView Webhooks*
