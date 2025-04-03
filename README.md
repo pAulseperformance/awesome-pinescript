@@ -59,6 +59,7 @@ Scan multiple charts with a single indicator
 - [120 ticker Screener](https://www.tradingview.com/script/0h0gKNcy-120x-ticker-screener-composite-tickers/) - *In specific circumstances, it is possible to extract data, far above the 40 `request.*()` call limit for 1 single script .
 The following technique uses composite tickers. Changing tickers needs to be done in the code itself as will be explained further.
 *
+- [TradingView-Screener](https://github.com/shner-elmo/TradingView-Screener) - *A Python package that lets you create TradingView screeners by interacting directly with TradingView's API.*
 
 ### Math
 - [Black Scholes](https://www.tradingview.com/script/dgMumvhd-Black-Scholes-Options-Pricing-Model/) - *The Black-Scholes model is a mathematical model used for pricing options. From this model you can derive the theoretical fair value of an options contract. Additionally, you can derive various risk parameters called Greeks. This indicator includes three types of data: Theoretical Option Price (blue), the Greeks (green), and implied volatility (red); their values are presented in that order.* #options
