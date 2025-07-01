@@ -200,3 +200,4 @@
 
 ## License
 - [MIT License](https://github.com/pAulseperformance/awesome-pinescript/blob/master/LICENSE) - *The code and content in this repository is licensed under the MIT License. See the LICENSE file for more information.*
+
