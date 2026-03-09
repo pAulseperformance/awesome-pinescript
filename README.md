@@ -142,6 +142,7 @@
 - [Altrady](https://www.altrady.com/features/signal-bot) - *You can run pine script strategies on TradingView that will automatically open positions based on the signal. *
 - [AutoView](https://autoview.with.pink/) - *Free For Testnets! Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.*
 - [Capitalise.ai](https://capitalise.ai/) - *Code Free Trading Automation that accepts simple [TV Webhook Automation](https://support.capitalise.ai/en/articles/5638761-using-tradingview-alerts-to-trigger-strategies)*
+- [Chartscout](https://chartscout.io/) - *Real-Time Detection. Scans 1,000+ pairs across 4 exchanges 24/7. Detects patterns instantly and alerts you in under 20 seconds.*
 - [Cornix](https://cornix.io/) - *Automated crypto trading for everyone*
 - [Cryptohopper](https://www.cryptohopper.com/) - *Use Cryptohopper with the TradingView webhook URL to send TV alerts to your bots, for automated order execution on one or multiple exchanges.*
 - [Mizar](https://www.mizar.com/) - *Can run your TV strategies via webhooks with the fast and reliable execution across several crypto exchanges.*
