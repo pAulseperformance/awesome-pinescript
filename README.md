@@ -167,6 +167,7 @@
 - [Pine Script Pro](https://github.com/revanthpobala/pinescript-vscode-extension) - *Professional Language Support for Pine Script. Static analysis, type-infection checking, and intelligent tooltips for advanced TradingView developers.*
 - [pine-script-linter](https://www.npmjs.com/package/pinescript-linter) - *A linter for Pine Script to enforce coding standards and catch common errors.*
 - [pine-script-visual-studio-code](https://github.com/pine-language-tools/pine-script-visual-studio-code) - *Sublime Text/VSCode package for Pine Script v5 with a few VSCode-specific features added.*
+- [Pine Script v6 AI Dev Repo](https://github.com/trugurpala/pinescriptv6) - *Pine Script v6 development environment for AI editors — error memory (LESSONS_LEARNED.md), fakeout filters, 9 editor configs (Cursor, Copilot, Windsurf…), 55+ examples: ES, NQ, BTC, ETH, Gold, Forex, DAX, VIOP.*
 
 
 <a name="Style-Guides-Best-Practices" />
