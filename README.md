@@ -129,6 +129,7 @@
 - [Instabot Trader](https://github.com/ottodevs/instabot-trader) - *Server Side bot that powers Alertatron. A simple tool to convert text messages sent over HTTP or via a Telegram bot into a set of trading orders, to a variety of exchanges (Bitfinex, Deribit and Coinbase Pro).*
 - [Frostybot-js](https://github.com/CryptoMF/frostybot-js) - *Frostybot-JS is a cryptocurrency trading API endpoint, designed to execute webhook or REST requests as orders on a variety of well-known exchanges.*
 - [Fundingrate Backend](https://github.com/tacyarg/tradingview-webhooks) - *Backend service converting tradingview alerts into action.*
+- [mkt-alerts](https://github.com/dzianisv/mkt-alerts) - *Self-hosted CLI that evaluates Pine Script v5 indicators independently and delivers price, RSI/MACD, and custom alerts via ntfy, email, or Telegram.*
 
 #### PHP
 - [Frostybot-php](https://github.com/CryptoMF/frostybot-php) - *FrostyBot is a minimal endpoint that is designed to be used with webhooks in Tradingview alerts.*
