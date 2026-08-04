@@ -147,7 +147,7 @@
 - [Mizar](https://www.mizar.com/) - *Can run your TV strategies via webhooks with the fast and reliable execution across several crypto exchanges.*
 - [PickMyTrade](https://pickmytrade.trade/) - *PickMyTrade empowers traders by automating TradingView strategies/Indicator for futures, seamlessly connecting TradingView with Tradovate and Rithmic*
 - [Pine Connector](https://www.pineconnector.com/) - *Auto-execute your TradingView alerts to MetaTrader 4 & 5*
-- [Pineify](https://pineify.app/) - *Pineify is a tool for tradingview traders that allows them to build TradingView indicators through visualization tools.*
+
 - [ProfitView](https://wiki.profitview.app/home) - *Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.*
 - [PSStrategyX](https://pinescriptstrategy.com/psstrategyx/) - *Pine Script Indicator that automatically connects to AutoView so you don't have to write alert syntax.*
 - [Tickerly](https://tickerly.net/?partner=1898) - *Tickerly’s fast and flexible service enables you to effortlessly automate any strategy on forex, stock, futures or cryptocurrency assets.*
@@ -164,6 +164,7 @@
 <a name="Development-Tools" />
 
 ## Development Tools
+- [Pineify](https://pineify.app/) - *AI-assisted Pine Script v6 coding agent and visual no-code builder for TradingView indicators, strategies, and screeners, with parameter optimization and backtest analysis.*
 - [Pine Script Pro](https://github.com/revanthpobala/pinescript-vscode-extension) - *Professional Language Support for Pine Script. Static analysis, type-infection checking, and intelligent tooltips for advanced TradingView developers.*
 - [pine-script-linter](https://www.npmjs.com/package/pinescript-linter) - *A linter for Pine Script to enforce coding standards and catch common errors.*
 - [pine-script-visual-studio-code](https://github.com/pine-language-tools/pine-script-visual-studio-code) - *Sublime Text/VSCode package for Pine Script v5 with a few VSCode-specific features added.*
