@@ -167,6 +167,7 @@
 - [Pine Script Pro](https://github.com/revanthpobala/pinescript-vscode-extension) - *Professional Language Support for Pine Script. Static analysis, type-infection checking, and intelligent tooltips for advanced TradingView developers.*
 - [pine-script-linter](https://www.npmjs.com/package/pinescript-linter) - *A linter for Pine Script to enforce coding standards and catch common errors.*
 - [pine-script-visual-studio-code](https://github.com/pine-language-tools/pine-script-visual-studio-code) - *Sublime Text/VSCode package for Pine Script v5 with a few VSCode-specific features added.*
+- [codemyedge](https://codemyedge.com) - Generates TradingView Pine Script from a plain-English strategy description and runs it on a real chart to catch repainting/lookahead bugs before you trust it live. Free: unlimited script generation, 10 chart previews/day.
 
 
 <a name="Style-Guides-Best-Practices" />
