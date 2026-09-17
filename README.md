@@ -139,7 +139,7 @@
 ### Closed Source
 - [3Commas](https://3commas.io/) - *Can receive TV alerts and connect them to their bots to execute simple orders on crypto exchanges.*
 - [Alertatron](https://alertatron.com/) - *A service that allows you to relay TradingView alerts to Telegram, Discord, Slack, Email or webhooks, with a chart snapshot attached.*
-- [Altrady](https://www.altrady.com/features/signal-bot) - *You can run pine script strategies on TradingView that will automatically open positions based on the signal. *
+- [Altrady](https://www.altrady.com/features/signal-bot) - *You can run pine script strategies on TradingView that will automatically open positions based on the signal.*
 - [AutoView](https://autoview.with.pink/) - *Free For Testnets! Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.*
 - [Capitalise.ai](https://capitalise.ai/) - *Code Free Trading Automation that accepts simple [TV Webhook Automation](https://support.capitalise.ai/en/articles/5638761-using-tradingview-alerts-to-trigger-strategies)*
 - [Cornix](https://cornix.io/) - *Automated crypto trading for everyone*
@@ -147,6 +147,7 @@
 - [Mizar](https://www.mizar.com/) - *Can run your TV strategies via webhooks with the fast and reliable execution across several crypto exchanges.*
 - [PickMyTrade](https://pickmytrade.trade/) - *PickMyTrade empowers traders by automating TradingView strategies/Indicator for futures, seamlessly connecting TradingView with Tradovate and Rithmic*
 - [Pine Connector](https://www.pineconnector.com/) - *Auto-execute your TradingView alerts to MetaTrader 4 & 5*
+- [Pinegen AI](https://www.pinegen.ai/) - *Generate, fix, and backtest compiler-validated Pine Script v6 strategies for TradingView using AI.*
 - [Pineify](https://pineify.app/) - *Pineify is a tool for tradingview traders that allows them to build TradingView indicators through visualization tools.*
 - [ProfitView](https://wiki.profitview.app/home) - *Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.*
 - [PSStrategyX](https://pinescriptstrategy.com/psstrategyx/) - *Pine Script Indicator that automatically connects to AutoView so you don't have to write alert syntax.*
