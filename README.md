@@ -157,7 +157,7 @@
 - [TradingConnector](https://www.tradingconnector.com/) - *TradingView alerts to MT4/MT5 receives TV alerts and converts them into instant orders on MT4/MT5 in forex, indices and commodities markets.*
 - [TradingView.to](https://tradingview.to/) - *The simplest, most affordable and reliable automation tool*
 - [Tuned](https://app.tuned.com) - *Use PineScript to run fully-automated batch experiments with powerful backtesting, paper trading, and even live trading.*
-- [TV Hub](https://www.tv-hub.org/) - *Convert every TradingView alert into a trade within seconds.*
+- [TV Hub](https://www.tv-hub.org/) - *Executes TradingView alerts as spot and futures orders on Binance, Bybit, OKX, KuCoin, Coinbase, Bitget and Hyperliquid, with position size, stop loss and take profit set per alert. Also runs DCA and grid bots and executes Telegram signals.*
 - [Webook Alerts](https://webhookalerts.com/) - *Send all your TradingView alerts to Telegram, Discord, Slack and Twitter along with a full screenshot of the chart*
 
 
