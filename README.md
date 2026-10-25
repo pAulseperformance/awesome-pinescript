@@ -88,6 +88,7 @@
 - [Filter Response](https://www.tradingview.com/script/oTEP9DJF-Filter-Information-Box-PineCoders-FAQ/) - *Analyze the characteristics of your filters, with DSP*
 - [Signal Generator](https://www.tradingview.com/script/p3Bqr6fq-pp-Signal-Generator/) - *Debug and test indicators and strategies that accept exernal inputs.*
 - [Interactive Motive Wave Checklist](https://www.tradingview.com/script/ypAxpurY-Interactive-Motive-Wave-Checklist/) - *an interactive tool that can be used for learning a bit about Elliott Waves*
+-  [PineScript Trade Ledger](https://github.com/xzhangdada-beep/pinescript-trade-ledger) - *Universal order-ledger template for Pine Script: plugs into any indicator to log every order with entry/exit prices and R multiples, so backtest results can be reconciled trade by trade.*
 - [Textmate Language for Pine Script v5 2023-05](https://www.tradingview.com/script/O6LCkLTf-Textmate-Language-for-Pine-Script-v5-2023-05/) - *Syntax Highlighter for Textmate vscode*
 
 
