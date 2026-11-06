@@ -186,6 +186,7 @@
 - [Kodify](https://kodify.net/tradingview-programming-articles/) - *Tutorials on various topics for beginners and more experienced coders alike.*
 - [Pine Coders Utils](https://github.com/pinecoders/pine-utils) - *Reusable code snippets, tricks & tips.*
 - [Pine Coders Website](https://www.pinecoders.com/) - *Useful information for Pine coders.*
+- [Pine Script Errors Explained](https://edgoro.com/pine-script-errors) - *30 common Pine Script v6 compiler errors, each reproduced on TradingView with the broken code, the fix and why it works.*
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/pine-script) - *Ask questions tagged with pine-script.* 
 - [What is Repainting?](https://www.tradingview.com/pine-script-docs/en/v5/concepts/Repainting.html) - *It's not fun. You should learn about it.*
 
