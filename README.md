@@ -164,9 +164,8 @@
 <a name="Development-Tools" />
 
 ## Development Tools
+- [Pine Script Checker](https://supercharting.com/pine-script-checker) - *Free online checker: compiles a Pine v6 script, runs it on sample candles and names the line of the first error, with a fix guide for common errors. No sign-up.*
 - [Pine Script Pro](https://github.com/revanthpobala/pinescript-vscode-extension) - *Professional Language Support for Pine Script. Static analysis, type-infection checking, and intelligent tooltips for advanced TradingView developers.*
-- [pine-script-linter](https://www.npmjs.com/package/pinescript-linter) - *A linter for Pine Script to enforce coding standards and catch common errors.*
-- [pine-script-visual-studio-code](https://github.com/pine-language-tools/pine-script-visual-studio-code) - *Sublime Text/VSCode package for Pine Script v5 with a few VSCode-specific features added.*
 
 
 <a name="Style-Guides-Best-Practices" />
@@ -194,7 +193,6 @@
 ## Contributing
 - [How to Contribute](https://github.com/pAulseperformance/awesome-pinescript/blob/master/.github/CONTRIBUTING.md) - *Read this if you want to contribute to the repository.*
 - [Translation Guide](https://github.com/pAulseperformance/awesome-pinescript/blob/master/.github/TRANSLATION.md) - *Read this if you want to help translate the repository to your language.*
-- [Pine Script Docs](https://github.com/tradingview/pine_script_docs) - *Found a typo or a bug in the Official Pine Script Documentaion? Drop a PR here.*
 
 
 <a name="License" />
