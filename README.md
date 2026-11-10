@@ -144,6 +144,7 @@
 - [Capitalise.ai](https://capitalise.ai/) - *Code Free Trading Automation that accepts simple [TV Webhook Automation](https://support.capitalise.ai/en/articles/5638761-using-tradingview-alerts-to-trigger-strategies)*
 - [Cornix](https://cornix.io/) - *Automated crypto trading for everyone*
 - [Cryptohopper](https://www.cryptohopper.com/) - *Use Cryptohopper with the TradingView webhook URL to send TV alerts to your bots, for automated order execution on one or multiple exchanges.*
+- [HoldAlarms](https://holdalarms.com/?utm_source=github&utm_medium=listing&utm_campaign=2026-11-10-awesome-pinescript) - *Webhook relay that sits between TradingView alerts and your bot or bridge: answers TradingView, queues the alert, retries delivery to your endpoint and keeps a dead-letter queue and log of failed deliveries.*
 - [Mizar](https://www.mizar.com/) - *Can run your TV strategies via webhooks with the fast and reliable execution across several crypto exchanges.*
 - [PickMyTrade](https://pickmytrade.trade/) - *PickMyTrade empowers traders by automating TradingView strategies/Indicator for futures, seamlessly connecting TradingView with Tradovate and Rithmic*
 - [Pine Connector](https://www.pineconnector.com/) - *Auto-execute your TradingView alerts to MetaTrader 4 & 5*
@@ -164,6 +165,8 @@
 <a name="Development-Tools" />
 
 ## Development Tools
+- [HoldAlarms webhook tester](https://github.com/holdalarms/webhook-tester) - *MIT command-line tool that POSTs a TradingView-style alert (JSON or plain text) to your webhook URL and prints the HTTP status and latency, with optional retries and secret masking.*
+
 - [Pine Script Pro](https://github.com/revanthpobala/pinescript-vscode-extension) - *Professional Language Support for Pine Script. Static analysis, type-infection checking, and intelligent tooltips for advanced TradingView developers.*
 - [pine-script-linter](https://www.npmjs.com/package/pinescript-linter) - *A linter for Pine Script to enforce coding standards and catch common errors.*
 - [pine-script-visual-studio-code](https://github.com/pine-language-tools/pine-script-visual-studio-code) - *Sublime Text/VSCode package for Pine Script v5 with a few VSCode-specific features added.*
