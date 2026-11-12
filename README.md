@@ -167,6 +167,7 @@
 - [Pine Script Pro](https://github.com/revanthpobala/pinescript-vscode-extension) - *Professional Language Support for Pine Script. Static analysis, type-infection checking, and intelligent tooltips for advanced TradingView developers.*
 - [pine-script-linter](https://www.npmjs.com/package/pinescript-linter) - *A linter for Pine Script to enforce coding standards and catch common errors.*
 - [pine-script-visual-studio-code](https://github.com/pine-language-tools/pine-script-visual-studio-code) - *Sublime Text/VSCode package for Pine Script v5 with a few VSCode-specific features added.*
+- [Pine Script v6 – Edgoro Pine Check](https://github.com/walidkssa/pine-script-v6-vscode) - *MIT extension for VS Code, Cursor and Windsurf: Pine Script v6 highlighting, live static checks with quick fixes (v4/v5 names, v6 bool and na rules, indentation, repainting), hover help and snippets. Runs offline.*
 
 
 <a name="Style-Guides-Best-Practices" />
@@ -186,7 +187,7 @@
 - [Kodify](https://kodify.net/tradingview-programming-articles/) - *Tutorials on various topics for beginners and more experienced coders alike.*
 - [Pine Coders Utils](https://github.com/pinecoders/pine-utils) - *Reusable code snippets, tricks & tips.*
 - [Pine Coders Website](https://www.pinecoders.com/) - *Useful information for Pine coders.*
-- [Pine Script Errors Explained](https://edgoro.com/pine-script-errors) - *30 common Pine Script v6 compiler errors, each reproduced on TradingView with the broken code, the fix and why it works.*
+- [Pine Script Errors Explained](https://edgoro.com/pine-script-errors) - *32 common Pine Script v6 compiler and runtime errors, each with the exact message, the broken code, the fix and why it works.*
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/pine-script) - *Ask questions tagged with pine-script.* 
 - [What is Repainting?](https://www.tradingview.com/pine-script-docs/en/v5/concepts/Repainting.html) - *It's not fun. You should learn about it.*
 
