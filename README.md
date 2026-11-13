@@ -164,6 +164,7 @@
 <a name="Development-Tools" />
 
 ## Development Tools
+- [OpenPineScript](https://github.com/be-thomas/OpenPineScript) - *Open-source Pine Script compiler and runtime for v1 through v6. Run indicators and strategy backtests on your own OHLCV data in Node.js, the browser or Python.*
 - [Pine Script Pro](https://github.com/revanthpobala/pinescript-vscode-extension) - *Professional Language Support for Pine Script. Static analysis, type-infection checking, and intelligent tooltips for advanced TradingView developers.*
 - [pine-script-linter](https://www.npmjs.com/package/pinescript-linter) - *A linter for Pine Script to enforce coding standards and catch common errors.*
 - [pine-script-visual-studio-code](https://github.com/pine-language-tools/pine-script-visual-studio-code) - *Sublime Text/VSCode package for Pine Script v5 with a few VSCode-specific features added.*
