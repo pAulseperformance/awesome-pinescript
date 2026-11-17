@@ -64,6 +64,7 @@
 
 
 ### Collections
+- [FN2 Pine Scripts](https://github.com/fn2ai/pine-scripts) - *Three open-source Pine Script v6 indicators for earnings planning, component breadth, and premarket gaps.*
 - [Pine Coders Publications](https://www.tradingview.com/u/PineCoders/#published-scripts) - *A plethora of useful techniques developed by the Pine Coders Account*
 - [Pine Script Indicators Collection](https://github.com/everget/tradingview-pinescript-indicators) - *A collection of various technical indicators.*
 - [Pine Script To ThinkScript Repo](https://github.com/bingit2/TradingView-to-ThinkorSwim) - *Repository of Pine Script Indicators converted to TOS ThinkScript*
