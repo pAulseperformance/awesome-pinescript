@@ -101,26 +101,31 @@ def tradingview(url):
     return {"boosts": int(m.group(1).replace(",", ""))} if m else None
 
 
-def appstore(name):
-    """Average rating and count from Apple's public search API.
+def appstore(host, name):
+    """Average rating and count from Apple's public search API, matched on the BRAND.
 
-    Matched on the app's name STARTING with the service's name, because a loose
-    search matches any app with a common word in it and would put a stranger's
-    rating next to an entry.
+    The brand is the domain's own name (3commas from 3commas.io), not the entry's
+    title, because a title search matches any app that happens to share a word:
+    "Raindrops" and "Charts" both return strangers' apps, and a stranger's rating
+    beside an entry is worse than a dash.
     """
-    body, rc = curl(f"https://itunes.apple.com/search?term={quote(name)}&entity=software&limit=5")
+    brand = host.split(".")[-2] if host.count(".") >= 1 else host
+    brand = re.sub(r"[^a-z0-9]", "", brand.lower())
+    entry = re.sub(r"[^a-z0-9]", "", name.replace("†", "").lower())
+    # the brand AND the entry's own name have to agree, or tradingview.to picks up
+    # the TradingView app, which is a different company
+    if len(brand) < 4 or brand != entry:
+        return None
+    body, rc = curl(f"https://itunes.apple.com/search?term={quote(brand)}&entity=software&limit=8")
     if rc != 0:
         return None
     try:
         results = json.loads(body).get("results", [])
     except json.JSONDecodeError:
         return None
-    want = re.sub(r"[^a-z0-9]", "", name.lower())
-    if len(want) < 4:
-        return None
     for r in results:
         got = re.sub(r"[^a-z0-9]", "", (r.get("trackName") or "").lower())
-        if got.startswith(want) and r.get("userRatingCount", 0) >= 20:
+        if got.startswith(brand) and r.get("userRatingCount", 0) >= 20:
             return {"app_score": round(float(r["averageUserRating"]), 1),
                     "app_count": int(r["userRatingCount"])}
     return None
@@ -175,10 +180,15 @@ def quick(row, max_age, cache):
         tv = tradingview(key)
         if tv:
             rec.update(tv)
-        store = appstore(row["name"])
-        if store:
-            rec.update(store)
-    for field in ("stars", "boosts", "first", "app_score", "app_count"):
+        # only a service with its own domain can have its own app; a TradingView
+        # script does not, and searching its title finds a stranger's app
+        if "tradingview.com" not in key and "github.com" not in key:
+            store = appstore(urlparse(key).netloc.lower().removeprefix("www."), row["name"])
+            if store:
+                rec.update(store)
+    # an App Store match is NOT carried over: the matcher was once looser, and a
+    # stale wrong rating is worse than a dash
+    for field in ("stars", "boosts", "first"):
         if field in old and field not in rec:
             rec[field] = old[field]
     return rec
@@ -261,7 +271,9 @@ def main():
     print(f"{len(rows)} entries, {len(stale)} stale", flush=True)
     with ThreadPoolExecutor(max_workers=8) as pool:
         for row, rec in zip(rows, pool.map(lambda r: quick(r, args.max_age, cache), rows)):
-            cache.setdefault(row["url"], {}).update(rec)
+            # replace, never merge: a field that is absent this run (a rating the
+            # matcher no longer trusts) must disappear rather than linger
+            cache[row["url"]] = rec
     save(cache, cache_path, rows)
     print(f"pass 1 done: {sum(1 for r in rows if cache[r['url']].get('stars') is not None)} stars, "
           f"{sum(1 for r in rows if cache[r['url']].get('boosts') is not None)} boosts", flush=True)
