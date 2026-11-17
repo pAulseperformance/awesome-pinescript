@@ -239,6 +239,7 @@ The language used to be locked to the platform. These projects run a Pine script
 - [Kodify](https://kodify.net/tradingview-programming-articles/) - Tutorials on various topics for beginners and more experienced coders alike.
 - [Pine Coders Utils](https://github.com/pinecoders/pine-utils) - Reusable code snippets, tricks and tips.
 - [Pine Coders Website](https://www.pinecoders.com/) - Useful information for Pine coders.
+- [Pine Script Errors Explained](https://edgoro.com/pine-script-errors) - Common Pine Script v6 compiler and runtime errors, each with the exact message, a script that triggers it, the corrected script and why the fix works.
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/pine-script) - Ask questions tagged with pine-script.
 - [What is Repainting?](https://www.tradingview.com/pine-script-docs/en/v5/concepts/Repainting.html) - It's not fun. You should learn about it.
 
