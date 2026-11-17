@@ -3,15 +3,6 @@
 
 **A Comprehensive Collection of Everything Related to Tradingview Pine Script.**
 
-<a href="https://pAulseperformance.com/#stack"><img src="https://pAulseperformance.com/card/stack.svg?v=2026-11-17" alt="The stack behind this list: services ranked by when they were last used" width="460"></a>
-
-<p>
-  <img src="https://pAulseperformance.com/badge/stack.svg?v=2026-11-17" alt="the stack: 18 tools, 7 with a date" height="26">
-  <img src="https://pAulseperformance.com/badge/github.svg?v=2026-11-17" alt="GitHub: last used today" height="26">
-  <img src="https://pAulseperformance.com/badge/cloudflare.svg?v=2026-11-17" alt="Cloudflare: last used today" height="26">
-  <a href="https://pAulseperformance.com/case/stack/"><img src="https://pAulseperformance.com/badge/twelve-data.svg?v=2026-11-17" alt="Twelve Data: last used today" height="26"></a>
-</p>
-
 ## Table of Contents
 - [awesome-pinescript      ](#awesome-pinescript------)
   - [Table of Contents](#table-of-contents)
