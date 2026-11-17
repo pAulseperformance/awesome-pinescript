@@ -164,6 +164,7 @@
 <a name="Development-Tools" />
 
 ## Development Tools
+- [Charts](https://chartsgg.com/pine-script-editor) - *Run Pine Script and MQL4/MQL5 indicators in the browser on any market, export Pine Script to MQL5.*
 - [Pine Script Pro](https://github.com/revanthpobala/pinescript-vscode-extension) - *Professional Language Support for Pine Script. Static analysis, type-infection checking, and intelligent tooltips for advanced TradingView developers.*
 - [pine-script-linter](https://www.npmjs.com/package/pinescript-linter) - *A linter for Pine Script to enforce coding standards and catch common errors.*
 - [pine-script-visual-studio-code](https://github.com/pine-language-tools/pine-script-visual-studio-code) - *Sublime Text/VSCode package for Pine Script v5 with a few VSCode-specific features added.*
