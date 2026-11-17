@@ -1,0 +1,53 @@
+name: A link is dead
+description: An entry points at a page that no longer loads.
+title: "dead link: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The whole list is checked every week, so a dead link here is a real gap
+        rather than a surprise. Two things make a report fast to act on: the URL
+        that fails, and which entry it belongs to.
+  - type: input
+    id: url
+    attributes:
+      label: The URL that fails
+      placeholder: https://example.com/the-page
+    validations:
+      required: true
+  - type: input
+    id: entry
+    attributes:
+      label: The entry it belongs to
+      description: Copy the entry's name as the list spells it.
+      placeholder: Pine Script v6 Language Reference
+    validations:
+      required: true
+  - type: dropdown
+    id: answer
+    attributes:
+      label: What the page answers
+      options:
+        - 404 or "not found"
+        - The domain is gone
+        - It moved and now lives somewhere else
+        - It loads but shows something else entirely
+        - Something else (say below)
+    validations:
+      required: true
+  - type: input
+    id: replacement
+    attributes:
+      label: A working replacement, if you know one
+      placeholder: https://example.com/the-new-page
+    validations:
+      required: false
+  - type: checkboxes
+    id: honest
+    attributes:
+      label: Before you file
+      options:
+        - label: I opened the link in a normal browser, not a script or a terminal.
+          required: true
+        - label: I checked the replacement if I gave one.
+          required: false

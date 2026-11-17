@@ -15,6 +15,7 @@
   <a href="https://pAulseperformance.com/card/pinescript.svg"><img alt="the list: entries and sections, counted" src="https://pAulseperformance.com/badge/pinescript.svg"></a>
   <a href="https://github.com/pAulseperformance/awesome-pinescript/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/pAulseperformance/awesome-pinescript.svg"></a>
   <a href="https://github.com/pAulseperformance/awesome-pinescript/actions/workflows/check.yml"><img alt="every link checked on every change" src="https://github.com/pAulseperformance/awesome-pinescript/actions/workflows/check.yml/badge.svg"></a>
+  <a href="https://github.com/pAulseperformance/awesome-pinescript/actions/workflows/integrity.yml"><img alt="every link verified on a weekly clock" src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pAulseperformance/awesome-pinescript/health/assets/verified.json"></a>
 </p>
 
 <p align="center"><sub>Every link checked by CI on every change · <a href="https://github.com/pAulseperformance/awesome-pinescript/actions/workflows/check.yml">what that means</a></sub></p>
