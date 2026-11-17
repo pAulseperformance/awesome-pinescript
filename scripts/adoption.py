@@ -101,26 +101,31 @@ def tradingview(url):
     return {"boosts": int(m.group(1).replace(",", ""))} if m else None
 
 
-def appstore(name):
-    """Average rating and count from Apple's public search API.
+def appstore(host, name):
+    """Average rating and count from Apple's public search API, matched on the BRAND.
 
-    Matched on the app's name STARTING with the service's name, because a loose
-    search matches any app with a common word in it and would put a stranger's
-    rating next to an entry.
+    The brand is the domain's own name (3commas from 3commas.io), not the entry's
+    title, because a title search matches any app that happens to share a word:
+    "Raindrops" and "Charts" both return strangers' apps, and a stranger's rating
+    beside an entry is worse than a dash.
     """
-    body, rc = curl(f"https://itunes.apple.com/search?term={quote(name)}&entity=software&limit=5")
+    brand = host.split(".")[-2] if host.count(".") >= 1 else host
+    brand = re.sub(r"[^a-z0-9]", "", brand.lower())
+    entry = re.sub(r"[^a-z0-9]", "", name.replace("†", "").lower())
+    # the brand AND the entry's own name have to agree, or tradingview.to picks up
+    # the TradingView app, which is a different company
+    if len(brand) < 4 or brand != entry:
+        return None
+    body, rc = curl(f"https://itunes.apple.com/search?term={quote(brand)}&entity=software&limit=8")
     if rc != 0:
         return None
     try:
         results = json.loads(body).get("results", [])
     except json.JSONDecodeError:
         return None
-    want = re.sub(r"[^a-z0-9]", "", name.lower())
-    if len(want) < 4:
-        return None
     for r in results:
         got = re.sub(r"[^a-z0-9]", "", (r.get("trackName") or "").lower())
-        if got.startswith(want) and r.get("userRatingCount", 0) >= 20:
+        if got.startswith(brand) and r.get("userRatingCount", 0) >= 20:
             return {"app_score": round(float(r["averageUserRating"]), 1),
                     "app_count": int(r["userRatingCount"])}
     return None
@@ -175,10 +180,15 @@ def quick(row, max_age, cache):
         tv = tradingview(key)
         if tv:
             rec.update(tv)
-        store = appstore(row["name"])
-        if store:
-            rec.update(store)
-    for field in ("stars", "boosts", "first", "app_score", "app_count"):
+        # only a service with its own domain can have its own app; a TradingView
+        # script does not, and searching its title finds a stranger's app
+        if "tradingview.com" not in key and "github.com" not in key:
+            store = appstore(urlparse(key).netloc.lower().removeprefix("www."), row["name"])
+            if store:
+                rec.update(store)
+    # an App Store match is NOT carried over: the matcher was once looser, and a
+    # stale wrong rating is worse than a dash
+    for field in ("stars", "boosts", "first"):
         if field in old and field not in rec:
             rec[field] = old[field]
     return rec
@@ -197,31 +207,44 @@ def render(rows, cache):
            "script page, the domain's first capture from the Wayback Machine's CDX index, and ratings",
            "from Apple's public search API. `domain since` is when the DOMAIN first appeared, which is",
            "not always when the service did: a domain that changed hands carries the older date.", ""]
-    current = None
+    heads = ["resource", "evidence", "domain since", "reviewers"]
+
+    # Build one section at a time, then drop any column that is empty for that
+    # section: a table full of dashes reads as missing data rather than as honesty.
+    section, block = None, []
+    def flush():
+        if not block or section is None:
+            return []
+        keep = [0] + [i for i in range(1, 4) if any(r[i] != "—" for r in block)]
+        lines = ["", f"## {section}", "",
+                 "| " + " | ".join(heads[i] for i in keep) + " |",
+                 "| " + " | ".join("---" for _ in keep) + " |"]
+        for r in block:
+            lines.append("| " + " | ".join(r[i] for i in keep) + " |")
+        return lines
+
     for row in rows:
         if row["section"].lower() in RENDER_SKIP:
             continue
         c = cache.get(row["url"], {})
-        if row["section"] != current:
-            current = row["section"]
-            out += ["", f"## {current}", "",
-                    "| resource | evidence | domain since | reviewers |",
-                    "| --- | --- | --- | --- |"]
+        if row["section"] != section:
+            out += flush()
+            section, block = row["section"], []
         bits = []
         if c.get("stars") is not None:
             bits.append(f"★ {fmt(c['stars'])} on GitHub")
         if c.get("boosts") is not None:
             bits.append(f"{fmt(c['boosts'])} boosts")
+        since = c.get("first")
+        if "tradingview.com" in row["url"]:
+            since = None      # the host's first capture says nothing about a script published later
         tp, rv = c.get("trustpilot"), "—"
         if tp:
             rv = f"Trustpilot {tp['score']} ({fmt(tp['count'])}, {time.strftime('%b %Y', time.gmtime(tp.get('checked', 0)))})"
         elif c.get("app_score") is not None:
             rv = f"App Store {c['app_score']} ({fmt(c['app_count'])})"
-        since = c.get("first")
-        if "tradingview.com" in row["url"]:
-            since = None      # the host's first capture says nothing about a script published later
-        out.append(f"| [{row['name']}]({row['url']}) | {', '.join(bits) or '—'} | "
-                   f"{since or '—'} | {rv} |")
+        block.append([f"[{row['name']}]({row['url']})", ", ".join(bits) or "—", since or "—", rv])
+    out += flush()
     out += ["", "---", "",
             f"Measured {time.strftime('%d %B %Y', time.gmtime())} by `scripts/adoption.py`. A lookup that",
             "is refused keeps its previous reading rather than dropping out, and Trustpilot refuses",
@@ -248,7 +271,9 @@ def main():
     print(f"{len(rows)} entries, {len(stale)} stale", flush=True)
     with ThreadPoolExecutor(max_workers=8) as pool:
         for row, rec in zip(rows, pool.map(lambda r: quick(r, args.max_age, cache), rows)):
-            cache.setdefault(row["url"], {}).update(rec)
+            # replace, never merge: a field that is absent this run (a rating the
+            # matcher no longer trusts) must disappear rather than linger
+            cache[row["url"]] = rec
     save(cache, cache_path, rows)
     print(f"pass 1 done: {sum(1 for r in rows if cache[r['url']].get('stars') is not None)} stars, "
           f"{sum(1 for r in rows if cache[r['url']].get('boosts') is not None)} boosts", flush=True)
