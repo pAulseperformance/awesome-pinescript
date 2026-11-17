@@ -64,9 +64,9 @@ def probe(url):
              "-o", "/dev/null", "-w", "%{http_code}", url],
             capture_output=True, text=True, timeout=45,
         )
-        return url, (out.stdout.strip() or "000"), out.stderr.strip()
+        return url, (out.stdout.strip() or "000"), out.stderr.strip(), out.returncode
     except subprocess.TimeoutExpired:
-        return url, "000", "timeout"
+        return url, "000", "timeout", 28
 
 
 def main():
@@ -89,12 +89,18 @@ def main():
         results = list(pool.map(probe, found))
 
     ok = gated = dead = excused = 0
-    for url, code, err in results:
+    for url, code, err, rc in results:
         if code.startswith(("2", "3")):
             ok += 1
         elif code in GATED:
             gated += 1
             print(f"  gated  {code}  {url}")
+        elif rc == 60:
+            # The server sends an incomplete certificate chain. Browsers fetch the
+            # missing intermediate and open the page, so this is not a dead link,
+            # but it is worth seeing on every run until the host fixes its chain.
+            gated += 1
+            print(f"  gated  TLS  {url}  (incomplete certificate chain)")
         elif code == "000" and host_of(url) in allowed_hosts:
             excused += 1
             print(f"  allowed 000  {url}  (verified by a second method)")
