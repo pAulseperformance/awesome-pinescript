@@ -1,7 +1,28 @@
-# Awesome Pine Script  [![Visitors](https://komarev.com/ghpvc/?username=pAulseperformance&repo=awesome-pinescript)](https://github.com/pAulseperformance/awesome-pinescript) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub last commit](https://img.shields.io/github/last-commit/pAulseperformance/awesome-pinescript.svg)](https://github.com/pAulseperformance/awesome-pinescript/commits/master) [![the list: entries and sections, counted](https://pAulseperformance.com/badge/pinescript.svg)](https://pAulseperformance.com/card/pinescript.svg)
+<h1 align="center">Awesome Pine Script</h1>
 
+<p align="center">
+  <strong>A Comprehensive Collection of Everything Related to TradingView Pine Script.</strong><br>
+  Official docs, the indicators people actually use, and the tooling that runs Pine outside the platform.
+</p>
 
-**A Comprehensive Collection of Everything Related to TradingView Pine Script.**
+<p align="center">
+  <a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge.svg"></a>
+  <a href="https://opensource.org/licenses/MIT"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+  <a href="http://makeapullrequest.com"><img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"></a>
+</p>
+
+<p align="center">
+  <a href="https://pAulseperformance.com/card/pinescript.svg"><img alt="the list: entries and sections, counted" src="https://pAulseperformance.com/badge/pinescript.svg"></a>
+  <a href="https://github.com/pAulseperformance/awesome-pinescript/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/pAulseperformance/awesome-pinescript.svg"></a>
+  <a href="https://github.com/pAulseperformance/awesome-pinescript"><img alt="Visitors" src="https://komarev.com/ghpvc/?username=pAulseperformance&repo=awesome-pinescript"></a>
+</p>
+
+<p align="center"><sub>Every link checked by CI on every change · <a href="https://github.com/pAulseperformance/awesome-pinescript/actions/workflows/check.yml">what that means</a></sub></p>
+
+<p align="center"><sub>New here? Start with the <a href="https://www.tradingview.com/pine-script-docs/welcome/">v6 manual</a>, the <a href="https://www.pinecoders.com/faq_and_code/">PineCoders FAQ</a>, or <a href="#running-pine-outside-tradingview">what runs Pine outside TradingView</a>.</sub></p>
+
+<details>
+<summary><strong>Contents</strong> · 10 sections</summary>
 
 ## Contents
 
@@ -23,6 +44,8 @@
 - [Development Tools](#development-tools)
 - [Style Guides & Best Practices](#style-guides--best-practices)
 - [Learning Resources](#learning-resources)
+
+</details>
 
 
 <a name="Official-Resources" />
