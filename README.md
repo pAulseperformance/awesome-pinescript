@@ -143,21 +143,46 @@ closed-source ones are accounts you point a webhook at.
 
 ### Open Source
 
+#### Python
+
+- [Misc Collection](https://github.com/Roibal/Cryptocurrency-Trading-Bots-Python-Beginner-Advance) - Various Python crypto bots, with a TradingView alert bot.
 - [OctoBot](https://octobot.online/) - Open-source cryptocurrency trading robot that can receive alerts and turn them into orders on your favorite crypto exchanges.
 - [Python Bybit Pine Bot](https://github.com/Mtemi/Bybit-Auto-Trading-Bot-Ordes-placed-via-TradingView-Webhook) - Places orders (buy, sell, close, manage positions, TP, SL, TS and so on) on Bybit from TradingView webhook JSON alerts.
-- [TradingView Webhook Receiver](https://github.com/tradevectorsrobots/tradingview-webhook-receiver) - Self-hosted, dependency-free receiver that turns TradingView alerts into broker order requests, with a secret check, duplicate protection, size and price guards, and paper mode.
+- [Python Pine Bot Client](https://github.com/kzh-dev/pine-bot-client) - Client implementation of a trading bot that uses Pine Script and Python.
+- [TradingView Webhook Receiver](https://github.com/tradevectorsrobots/tradingview-webhook-receiver) - Self-hosted, dependency-free receiver that turns TradingView alerts into broker order requests, with a secret check, duplicate protection, size and price limits, a market-hours check, a kill switch and an audit log. Ships with a paper adapter only.
+
+#### JavaScript
+
+- [Fundingrate Backend](https://github.com/tacyarg/tradingview-webhooks) - Backend service converting TradingView alerts into action.
+- [Instabot Trader](https://github.com/ottodevs/instabot-trader) - Server-side bot that powers Alertatron: converts text messages sent over HTTP or via a Telegram bot into a set of trading orders on a variety of exchanges (Bitfinex, Deribit and Coinbase Pro).
+
+#### Google Chrome
+
+- [Autoview Chrome Docker Bot](https://github.com/IAMtheIAM/autoview-tradingview-chrome-docker-bot) - Dockerized Autoview extension on a VPS.
 
 ### Closed Source
 
+- [3Commas](https://3commas.io/) - Can receive TV alerts and connect them to their bots to execute simple orders on crypto exchanges.
 - [AlgoWay](https://algoway.trade/) - TradingView webhook automation for MT5, cTrader, TradeLocker, MatchTrader, DxTrade, Capital.com, IBKR, Binance, OKX, Bybit and other execution platforms.
-- [AutoView](https://autoview.with.pink/) - Free for testnets. A Chrome extension that receives TradingView alerts and relays orders to crypto exchanges, with no server to run.
-- [Capitalise.ai](https://capitalise.ai/) - Code-free automation: describe the rule in plain English, accept TradingView webhooks, and it trades it.
+- [Altrady](https://www.altrady.com/features/signal-bot) - You can run Pine Script strategies on TradingView that will automatically open positions based on the signal.
+- [AutoView](https://autoview.with.pink/) - Free for testnets. Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.
+- [Capitalise.ai](https://capitalise.ai/) - Code-free trading automation that accepts TradingView webhooks.
+- [Cornix](https://cornix.io/) - Automated crypto trading for everyone.
+- [Cryptohopper](https://www.cryptohopper.com/) - Use Cryptohopper with the TradingView webhook URL to send TV alerts to your bots, for automated order execution on one or multiple exchanges.
 - [Frostybot](https://frostybot.com/) - Minimal webhook endpoint designed to execute orders on a variety of well-known exchanges from TradingView alerts.
+- [Mizar](https://www.mizar.com/) - Runs your TV strategies via webhooks, with fast and reliable execution across several crypto exchanges.
 - [PickMyTrade](https://pickmytrade.trade/) - Automates TradingView strategies and indicators for futures, connecting TradingView with Tradovate and Rithmic.
-- [Pine Connector](https://www.pineconnector.com/) - Auto-execute your TradingView alerts on MetaTrader 4 and 5, across forex, indices and commodities.
+- [Pine Connector](https://www.pineconnector.com/) - Auto-execute your TradingView alerts on MetaTrader 4 and 5.
+- [ProfitView](https://wiki.profitview.app/home) - Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.
 - [PSStrategyX](https://www.tradingview.com/script/ZUqQdIKU-pAulseperformance-PSStrategyX/) - Indicator that backtests and then connects itself to AutoView, so you never write alert syntax by hand.
-- [TradersPost †](https://traderspost.io/?via=1) - Stocks, options, futures, crypto and paper trading from TradingView webhooks, which is the only one here covering equities and a paper account.
-- [TV Hub](https://www.tv-hub.org/) - Executes TradingView alerts as spot and futures orders on Binance, Bybit, OKX, KuCoin, Coinbase, Bitget and Hyperliquid, with position size, stop loss and take profit.
+- [Tickerly](https://tickerly.net/?partner=1898) - A fast and flexible service that enables you to automate any strategy on forex, stock, futures or cryptocurrency assets.
+- [TradeSanta](https://tradesanta.com/) - Automated trading software for TradingView.
+- [Tradelab.ai](https://tradelab.ai/) - Free TradingView bot builder. Build the strategy you want, no compromises, no code skills required, free to start.
+- [TradersPost †](https://traderspost.io/?via=1) - Stocks, options, futures, crypto and paper trading with TradingView webhooks.
+- [TradingConnector](https://www.tradingconnector.com/) - TradingView alerts to MT4/MT5: converts TV alerts into instant orders on MT4/MT5 in forex, indices and commodities markets.
+- [TradingView.to](https://tradingview.to/) - The simplest, most affordable and reliable automation tool.
+- [TV Hub](https://www.tv-hub.org/) - Executes TradingView alerts as spot and futures orders on Binance, Bybit, OKX, KuCoin, Coinbase, Bitget and Hyperliquid, with position size, stop loss and take profit set per alert.
+
 
 † This link carries the maintainer's referral id. The list earns a small commission from it,
 and nothing about an entry is decided by that.
