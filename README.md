@@ -1,4 +1,4 @@
-<h1 align="center">Awesome Pine Script</h1>
+<h1 align="center"><img src="assets/mark.svg" alt="" width="48" height="48"><br>Awesome Pine Script</h1>
 
 <p align="center">
   <strong>A Comprehensive Collection of Everything Related to TradingView Pine Script.</strong><br>
