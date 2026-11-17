@@ -131,6 +131,7 @@
 
 - [Instabot Trader](https://github.com/ottodevs/instabot-trader) - *Server-side bot that powers Alertatron: converts text messages sent over HTTP or via a Telegram bot into a set of trading orders on a variety of exchanges (Bitfinex, Deribit and Coinbase Pro).*
 - [Fundingrate Backend](https://github.com/tacyarg/tradingview-webhooks) - *Backend service converting TradingView alerts into action.*
+- [mkt-alerts](https://github.com/dzianisv/mkt-alerts) - *Self-hosted CLI that evaluates Pine Script v5 indicators independently and delivers price, RSI, MACD and custom alerts via ntfy, email or Telegram.*
 
 #### Google Chrome
 
@@ -140,6 +141,7 @@
 
 - [3Commas](https://3commas.io/) - *Can receive TV alerts and connect them to their bots to execute simple orders on crypto exchanges.*
 - [Alertatron](https://alertatron.com/) - *Relays TradingView alerts to Telegram, Discord, Slack, email or webhooks, with a chart snapshot attached.*
+- [AlgoWay](https://algoway.trade/) - *TradingView webhook automation for MT5, cTrader, TradeLocker, MatchTrader, DxTrade, Capital.com, IBKR, Binance, OKX, Bybit and other execution platforms.*
 - [Altrady](https://www.altrady.com/features/signal-bot) - *You can run Pine Script strategies on TradingView that will automatically open positions based on the signal.*
 - [AutoView](https://autoview.with.pink/) - *Free for testnets. Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.*
 - [Capitalise.ai](https://capitalise.ai/) - *Code-free trading automation that accepts TradingView webhooks.*
@@ -149,7 +151,7 @@
 - [Mizar](https://www.mizar.com/) - *Runs your TV strategies via webhooks, with fast and reliable execution across several crypto exchanges.*
 - [PickMyTrade](https://pickmytrade.trade/) - *Automates TradingView strategies and indicators for futures, connecting TradingView with Tradovate and Rithmic.*
 - [Pine Connector](https://www.pineconnector.com/) - *Auto-execute your TradingView alerts on MetaTrader 4 and 5.*
-- [Pineify](https://pineify.app/) - *A tool for TradingView traders that lets them build TradingView indicators through visualization tools.*
+- [PineGen AI](https://www.pinegen.ai/) - *Generates, fixes and backtests compiler-validated Pine Script v6 strategies from plain English.*
 - [ProfitView](https://wiki.profitview.app/home) - *Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.*
 - [PSStrategyX](https://pinescriptstrategy.com/psstrategyx/) - *Pine Script indicator that automatically connects to AutoView so you don't have to write alert syntax.*
 - [Tickerly](https://tickerly.net/?partner=1898) - *A fast and flexible service that enables you to automate any strategy on forex, stock, futures or cryptocurrency assets.*
@@ -158,7 +160,7 @@
 - [TradersPost](https://traderspost.io/?via=1) - *Stocks, options, futures, crypto and paper trading with TradingView webhooks.*
 - [TradingConnector](https://www.tradingconnector.com/) - *TradingView alerts to MT4/MT5: converts TV alerts into instant orders on MT4/MT5 in forex, indices and commodities markets.*
 - [TradingView.to](https://tradingview.to/) - *The simplest, most affordable and reliable automation tool.*
-- [TV Hub](https://www.tv-hub.org/) - *Convert every TradingView alert into a trade within seconds.*
+- [TV Hub](https://www.tv-hub.org/) - *Executes TradingView alerts as spot and futures orders on Binance, Bybit, OKX, KuCoin, Coinbase, Bitget and Hyperliquid, with position size, stop loss and take profit set per alert.*
 
 
 <a name="Running-Pine-Outside-TradingView" />
@@ -178,7 +180,10 @@ The language used to be locked to the platform. These projects run a Pine script
 
 ## Development Tools
 
+- [Charts](https://chartsgg.com/pine-script-editor) - *Runs Pine Script and MQL4/MQL5 indicators in the browser on any market, and exports Pine Script to MQL5.*
+- [Pine Script lookahead checker](https://github.com/Stochastly/stochastly-calculators/tree/main/pine-script-lookahead-checker) - *Open-source static check that flags `request.security` calls using `lookahead_on` without a history offset, which leak higher-timeframe values into past bars.*
 - [Pine Script Pro](https://github.com/revanthpobala/pinescript-vscode-extension) - *Professional language support for Pine Script: static analysis, type-infection checking and intelligent tooltips for advanced TradingView developers.*
+- [Pineify](https://pineify.app/) - *AI-assisted Pine Script v6 coding agent and visual no-code builder for indicators, strategies and screeners, with parameter optimization and backtest analysis.*
 
 
 <a name="Style-Guides-Best-Practices" />
