@@ -23,7 +23,7 @@
 <p align="center"><sub>New here? Start with the <a href="https://www.tradingview.com/pine-script-docs/welcome/">v6 manual</a>, the <a href="https://www.pinecoders.com/faq_and_code/">PineCoders FAQ</a>, or <a href="#running-pine-outside-tradingview">what runs Pine outside TradingView</a>.</sub></p>
 
 <details>
-<summary><strong>Contents</strong> · 10 sections</summary>
+<summary><strong>Contents</strong> · 11 sections</summary>
 
 ## Contents
 
@@ -41,6 +41,7 @@
 - [Automated Order Execution](#automated-order-execution)
   - [Open Source](#open-source)
   - [Closed Source](#closed-source)
+- [Alerts & Notifications](#alerts--notifications)
 - [Running Pine Outside TradingView](#running-pine-outside-tradingview)
 - [Development Tools](#development-tools)
 - [Style Guides & Best Practices](#style-guides--best-practices)
@@ -137,58 +138,41 @@
 
 ## Automated Order Execution
 
-- [PSStrategyX](https://www.tradingview.com/script/ZUqQdIKU-pAulseperformance-PSStrategyX/) - Backtests and automates indicators automatically.
+Every service below turns an alert into an order. The open-source ones you run yourself; the
+closed-source ones are accounts you point a webhook at.
 
 ### Open Source
 
 #### Python
 
-- [Python Pine Bot Client](https://github.com/kzh-dev/pine-bot-client) - Client implementation of a trading bot that uses Pine Script and Python.
-- [Python TradingView TA](https://github.com/deathlyface/python-tradingview-ta) - Unofficial TradingView technical analysis API wrapper.
-- [Python Bybit Pine Bot](https://github.com/Mtemi/Bybit-Auto-Trading-Bot-Ordes-placed-via-TradingView-Webhook) - Places orders (buy, sell, close, manage positions, TP, SL, TS and so on) on Bybit from TradingView webhook JSON alerts.
-- [Python Webhook Alert Provider](https://github.com/fabston/TradingView-Webhook-Bot) - Listens to TradingView alerts via webhooks using Flask. All alerts can be instantly sent to Telegram, Discord, Twitter and/or email.
 - [OctoBot](https://octobot.online/) - Open-source cryptocurrency trading robot that can receive alerts and turn them into orders on your favorite crypto exchanges.
-- [Misc Collection](https://github.com/Roibal/Cryptocurrency-Trading-Bots-Python-Beginner-Advance) - Various Python crypto bots, with a TradingView alert bot.
-- [Quantium Signal](https://github.com/quantium-ai/signal) - A self-hosted SMTP server that allows the use of TradingView alerts without the premium plan.
-- [TradingView Webhook Receiver](https://github.com/tradevectorsrobots/tradingview-webhook-receiver) - Self-hosted, dependency-free receiver that turns TradingView alerts into broker order requests, with a secret check, duplicate protection, size and price limits, a market-hours check, a kill switch and an audit log. Ships with a paper adapter only.
-
-#### JavaScript
-
-- [Instabot Trader](https://github.com/ottodevs/instabot-trader) - Server-side bot that powers Alertatron: converts text messages sent over HTTP or via a Telegram bot into a set of trading orders on a variety of exchanges (Bitfinex, Deribit and Coinbase Pro).
-- [Fundingrate Backend](https://github.com/tacyarg/tradingview-webhooks) - Backend service converting TradingView alerts into action.
-- [mkt-alerts](https://github.com/dzianisv/mkt-alerts) - Self-hosted CLI that evaluates Pine Script v5 indicators independently and delivers price, RSI, MACD and custom alerts via ntfy, email or Telegram.
-
-#### Google Chrome
-
-- [Autoview Chrome Docker Bot](https://github.com/IAMtheIAM/autoview-tradingview-chrome-docker-bot) - Dockerized Autoview extension on a VPS.
+- [Python Bybit Pine Bot](https://github.com/Mtemi/Bybit-Auto-Trading-Bot-Ordes-placed-via-TradingView-Webhook) - Places orders (buy, sell, close, manage positions, TP, SL, TS and so on) on Bybit from TradingView webhook JSON alerts.
+- [TradingView Webhook Receiver](https://github.com/tradevectorsrobots/tradingview-webhook-receiver) - Self-hosted, dependency-free receiver that turns TradingView alerts into broker order requests, with a secret check, duplicate protection, size and price guards, and paper mode.
 
 ### Closed Source
 
-- [3Commas](https://3commas.io/) - Can receive TV alerts and connect them to their bots to execute simple orders on crypto exchanges.
-- [Alertatron](https://alertatron.com/) - Relays TradingView alerts to Telegram, Discord, Slack, email or webhooks, with a chart snapshot attached.
 - [AlgoWay](https://algoway.trade/) - TradingView webhook automation for MT5, cTrader, TradeLocker, MatchTrader, DxTrade, Capital.com, IBKR, Binance, OKX, Bybit and other execution platforms.
-- [Altrady](https://www.altrady.com/features/signal-bot) - You can run Pine Script strategies on TradingView that will automatically open positions based on the signal.
-- [AutoView](https://autoview.with.pink/) - Free for testnets. Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.
-- [Capitalise.ai](https://capitalise.ai/) - Code-free trading automation that accepts TradingView webhooks.
-- [Cornix](https://cornix.io/) - Automated crypto trading for everyone.
-- [Cryptohopper](https://www.cryptohopper.com/) - Use Cryptohopper with the TradingView webhook URL to send TV alerts to your bots, for automated order execution on one or multiple exchanges.
+- [AutoView](https://autoview.with.pink/) - Free for testnets. A Chrome extension that receives TradingView alerts and relays orders to crypto exchanges, with no server to run.
+- [Capitalise.ai](https://capitalise.ai/) - Code-free automation: describe the rule in plain English, accept TradingView webhooks, and it trades it.
 - [Frostybot](https://frostybot.com/) - Minimal webhook endpoint designed to execute orders on a variety of well-known exchanges from TradingView alerts.
-- [Mizar](https://www.mizar.com/) - Runs your TV strategies via webhooks, with fast and reliable execution across several crypto exchanges.
 - [PickMyTrade](https://pickmytrade.trade/) - Automates TradingView strategies and indicators for futures, connecting TradingView with Tradovate and Rithmic.
 - [Pine Connector](https://www.pineconnector.com/) - Auto-execute your TradingView alerts on MetaTrader 4 and 5.
-- [PineGen AI](https://www.pinegen.ai/) - Generates, fixes and backtests compiler-validated Pine Script v6 strategies from plain English.
-- [ProfitView](https://wiki.profitview.app/home) - Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.
-- [PSStrategyX](https://pinescriptstrategy.com/psstrategyx/) - Pine Script indicator that automatically connects to AutoView so you don't have to write alert syntax.
-- [Tickerly](https://tickerly.net/?partner=1898) - A fast and flexible service that enables you to automate any strategy on forex, stock, futures or cryptocurrency assets.
-- [TradeSanta](https://tradesanta.com/) - Automated trading software for TradingView.
-- [Tradelab.ai](https://tradelab.ai/) - Free TradingView bot builder. Build the strategy you want, no compromises, no code skills required, free to start.
-- [TradersPost](https://traderspost.io/?via=1) - Stocks, options, futures, crypto and paper trading with TradingView webhooks.
-- [TradingConnector](https://www.tradingconnector.com/) - TradingView alerts to MT4/MT5: converts TV alerts into instant orders on MT4/MT5 in forex, indices and commodities markets.
-- [TradingView.to](https://tradingview.to/) - The simplest, most affordable and reliable automation tool.
-- [TV Hub](https://www.tv-hub.org/) - Executes TradingView alerts as spot and futures orders on Binance, Bybit, OKX, KuCoin, Coinbase, Bitget and Hyperliquid, with position size, stop loss and take profit set per alert.
+- [PSStrategyX](https://www.tradingview.com/script/ZUqQdIKU-pAulseperformance-PSStrategyX/) - Indicator that backtests and then connects itself to AutoView, so you never write alert syntax by hand.
+- [TradersPost †](https://traderspost.io/?via=1) - Stocks, options, futures, crypto and paper trading from TradingView webhooks, which is the only one here covering equities and a paper account.
+- [TV Hub](https://www.tv-hub.org/) - Executes TradingView alerts as spot and futures orders on Binance, Bybit, OKX, KuCoin, Coinbase, Bitget and Hyperliquid, with position size, stop loss and take profit.
 
+† This link carries the maintainer's referral id. The list earns a small commission from it,
+and nothing about an entry is decided by that.
 
-<a name="Running-Pine-Outside-TradingView" />
+## Alerts & Notifications
+
+Delivers the alert, and stops there, with no order attached. Kept apart from the section above
+because a reader looking for automation is not looking for a notifier.
+
+- [Alertatron](https://alertatron.com/) - Relays TradingView alerts to Telegram, Discord, Slack, email or a webhook, with a chart snapshot attached.
+- [mkt-alerts](https://github.com/dzianisv/mkt-alerts) - Self-hosted CLI that evaluates Pine Script v5 indicators independently and delivers price, RSI, MACD and custom alerts via ntfy, email or Telegram.
+- [Python Webhook Alert Provider](https://github.com/fabston/TradingView-Webhook-Bot) - Listens to TradingView alerts over a webhook with Flask and forwards them to Telegram, Discord, Twitter and email.
+- [Quantium Signal](https://github.com/quantium-ai/signal) - A self-hosted SMTP server that lets you use TradingView alerts without the premium plan.
 
 ## Running Pine Outside TradingView
 
@@ -208,11 +192,11 @@ The language used to be locked to the platform. These projects run a Pine script
 - [Charts](https://chartsgg.com/pine-script-editor) - Runs Pine Script and MQL4/MQL5 indicators in the browser on any market, and exports Pine Script to MQL5.
 - [Pine Script lookahead checker](https://github.com/Stochastly/stochastly-calculators/tree/main/pine-script-lookahead-checker) - Open-source static check that flags `request.security` calls using `lookahead_on` without a history offset, which leak higher-timeframe values into past bars.
 - [Pine Script Pro](https://github.com/revanthpobala/pinescript-vscode-extension) - Professional language support for Pine Script: static analysis, type-infection checking and intelligent tooltips for advanced TradingView developers.
-- [Pineify](https://pineify.app/) - AI-assisted Pine Script v6 coding agent and visual no-code builder for indicators, strategies and screeners, with parameter optimization and backtest analysis.
-
-
-<a name="Style-Guides-Best-Practices" />
-
+- [PineGen AI](https://www.pinegen.ai/) - Generates, fixes and backtests compiler-validated Pine Script v6 strategies from plain English.
+- [Pineify](https://pineify.app/) - AI-assisted Pine Script v6 coding agent and visual no-code builder for indicators, strategies and screeners, with parameter optimization and backtest.
+- [Python TradingView TA](https://github.com/deathlyface/python-tradingview-ta) - Unofficial TradingView technical analysis wrapper. Reads the ratings off a symbol's page, which is the cheapest way to get a second opinion into a script.
+- [TradingView MCP server](https://github.com/daviddme/tradingview-indicator-search-mcp-server) - Model Context Protocol server that searches TradingView's indicators and strategies and returns their Pine source, so an agent can read the code before it writes any.
+- [TradingView strategy optimizer](https://github.com/Roboquant-AI/tradingview-optimizer) - Open-source browser extension that grid-searches and walk-forward tests a strategy's inputs, and draws the result as a heatmap.
 ## Style Guides & Best Practices
 
 - [Script Moderation](https://www.tradingview.com/chart/SSP/bquN1v9X-Script-Moderation-Q-A/) - How to not get banned.
