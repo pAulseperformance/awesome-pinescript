@@ -1,0 +1,69 @@
+name: Suggest an entry
+description: Propose a resource for the list.
+title: "entry: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Entries are admitted on four clauses, and the same four are in the pull
+        request template. Answering them here saves a round trip.
+  - type: input
+    id: name
+    attributes:
+      label: The resource's name
+      placeholder: PineTS
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: The URL
+      description: The page a reader lands on, not a search result or a redirect.
+      placeholder: https://github.com/...
+    validations:
+      required: true
+  - type: input
+    id: one_line
+    attributes:
+      label: One line on what it does
+      description: What a reader gets from it, in a sentence. This is what the entry will say.
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Which section
+      options:
+        - Official Resources
+        - Community
+        - Indicators
+        - Development Tools
+        - Running Pine Outside TradingView
+        - JavaScript
+        - Closed Source
+        - Automated Order Execution
+        - Learning
+        - Not sure
+    validations:
+      required: true
+  - type: checkboxes
+    id: clauses
+    attributes:
+      label: The four clauses
+      options:
+        - label: The link opens, and it is the page a reader should land on.
+          required: true
+        - label: It is about Pine Script, or running it, not a general trading product.
+          required: true
+        - label: It carries no tracking parameters (no `utm_*`, no `?via=`, no affiliate id).
+          required: true
+        - label: I have said whether I am connected to it.
+          required: true
+  - type: input
+    id: connection
+    attributes:
+      label: Are you connected to it?
+      description: If you built it, run it, or are paid for it, say so. It does not disqualify the entry.
+      placeholder: I am not connected to it / I built it
+    validations:
+      required: true

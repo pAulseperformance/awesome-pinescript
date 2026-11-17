@@ -14,6 +14,7 @@ allowlist cannot hide a missing page.
 """
 
 import argparse
+import json
 import re
 import subprocess
 import sys
@@ -85,6 +86,8 @@ def main():
     ap.add_argument("--workers", type=int, default=10)
     ap.add_argument("--allow", default="scripts/link_allowlist.txt",
                     help="hosts whose curl transport failure is known-good")
+    ap.add_argument("--json", metavar="PATH", default=None,
+                    help="also write the full reading as JSON")
     args = ap.parse_args()
 
     path = Path(args.path)
@@ -99,35 +102,65 @@ def main():
         results = list(pool.map(probe, found))
 
     ok = gated = dead = excused = flaky = 0
+    rows = []
     for url, code, err, rc in results:
         if code.startswith(("2", "3")):
             ok += 1
+            status, reason = "ok", code
         elif code in GATED:
             gated += 1
+            status, reason = "gated", code
             print(f"  gated  {code}  {url}")
         elif code.startswith("5"):
             # Retried once already. A host having a bad minute is not a dead link,
             # but it should be visible rather than silently counted as fine.
             flaky += 1
+            status, reason = "flaky", code
             print(f"  flaky  {code}  {url}")
         elif rc == 60:
             # The server sends an incomplete certificate chain. Browsers fetch the
             # missing intermediate and open the page, so this is not a dead link,
             # but it is worth seeing on every run until the host fixes its chain.
             gated += 1
+            status, reason = "gated", "incomplete certificate chain"
             print(f"  gated  TLS  {url}  (incomplete certificate chain)")
         elif code == "000" and host_of(url) in allowed_hosts:
             excused += 1
+            status, reason = "allowed", "transport failure, allowlisted"
             print(f"  allowed 000  {url}  (verified by a second method)")
         else:
             dead += 1
             reason = code if code != "000" else (err.splitlines()[0] if err else "no response")
+            status = "dead"
             print(f"  DEAD   {code}  {url}  {reason}")
+        rows.append({
+            "url": url,
+            "section": found[url],
+            "status": status,
+            "code": code,
+            "reason": reason,
+        })
 
     print(f"\n{ok} ok, {gated} gated, {flaky} flaky, {excused} allowed, {dead} dead")
     if dead:
         print("every DEAD line needs a second method before it is reported: "
               "openssl s_client, a real browser load, or the registry API")
+
+    if args.json:
+        reading = {
+            "checked_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+            "file": str(path),
+            "total": len(rows),
+            "ok": ok,
+            "gated": gated,
+            "flaky": flaky,
+            "allowed": excused,
+            "dead": dead,
+            "links": rows,
+        }
+        Path(args.json).write_text(json.dumps(reading, indent=1) + "\n", encoding="utf-8")
+        print(f"reading written to {args.json}")
+
     return 1 if dead else 0
 
 

@@ -1,0 +1,76 @@
+name: integrity
+
+# The weekly clock. `check.yml` only runs when someone edits the repo, so a list
+# nobody is touching is a list nobody is checking, which is exactly when it rots.
+# This job probes every link on a schedule, publishes the reading where a badge
+# can serve it, and keeps one issue whose title carries the count.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays, 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: integrity
+  cancel-in-progress: false
+
+jobs:
+  check:
+    name: every link, on a clock
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: probe every link
+        id: probe
+        run: |
+          set +e
+          python3 scripts/check_links.py README.md --json health.json
+          code=$?
+          set -e
+          echo "exit=$code" >> "$GITHUB_OUTPUT"
+          # 1 means dead links were found: that is the finding, not a crash.
+          if [ "$code" -gt 1 ]; then exit "$code"; fi
+
+      - name: publish the reading where the badge can read it
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          python3 scripts/publish_health.py health.json assets/verified.json
+
+          # master takes pull requests only (the fleet main gate ruleset), so the
+          # reading lives on its own branch: raw.githubusercontent serves it there.
+          rm -rf "$RUNNER_TEMP/health"
+          mkdir -p "$RUNNER_TEMP/health/assets"
+          cp health.json "$RUNNER_TEMP/health/assets/health.json"
+          cp assets/verified.json "$RUNNER_TEMP/health/assets/verified.json"
+          cd "$RUNNER_TEMP/health"
+          git init -q
+          git checkout -q -b health
+          git add -A
+          # Only repo-controlled values reach this shell (the token, the repo name,
+          # the run id); no event title, body or ref is ever interpolated.
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -q -m "health: $(date -u +%F)"
+          git push -q --force \
+            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
+            health:health
+
+      - name: one issue, updated rather than repeated
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python3 scripts/report_health.py health.json --run-url "$RUN_URL"
+
+      - name: a red run when something is dead
+        if: steps.probe.outputs.exit == '1'
+        run: |
+          echo "::error::dead links found; the issue above carries the list"
+          exit 1
