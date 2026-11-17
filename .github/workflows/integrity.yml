@@ -3,7 +3,8 @@ name: integrity
 # The weekly clock. `check.yml` only runs when someone edits the repo, so a list
 # nobody is touching is a list nobody is checking, which is exactly when it rots.
 # This job probes every link on a schedule, publishes the reading where a badge
-# can serve it, and keeps one issue whose title carries the count.
+# can serve it, keeps one issue whose title carries the count, and refreshes the
+# adoption page so a reader can filter the directory themselves.
 
 on:
   schedule:
@@ -36,6 +37,15 @@ jobs:
           # 1 means dead links were found: that is the finding, not a crash.
           if [ "$code" -gt 1 ]; then exit "$code"; fi
 
+      - name: restore the adoption cache from the health branch
+        run: |
+          mkdir -p scripts
+          curl -fsS "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/health/scripts/adoption.json" \
+            -o scripts/adoption.json || echo "no cache yet, starting cold"
+
+      - name: measure how established each entry is
+        run: python3 scripts/adoption.py --max-age 7 || echo "adoption pass incomplete; keeping what it measured"
+
       - name: publish the reading where the badge can read it
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -46,9 +56,11 @@ jobs:
           # master takes pull requests only (the fleet main gate ruleset), so the
           # reading lives on its own branch: raw.githubusercontent serves it there.
           rm -rf "$RUNNER_TEMP/health"
-          mkdir -p "$RUNNER_TEMP/health/assets"
+          mkdir -p "$RUNNER_TEMP/health/assets" "$RUNNER_TEMP/health/scripts"
           cp health.json "$RUNNER_TEMP/health/assets/health.json"
           cp assets/verified.json "$RUNNER_TEMP/health/assets/verified.json"
+          [ -f ADOPTION.md ] && cp ADOPTION.md "$RUNNER_TEMP/health/ADOPTION.md" || true
+          [ -f scripts/adoption.json ] && cp scripts/adoption.json "$RUNNER_TEMP/health/scripts/adoption.json" || true
           cd "$RUNNER_TEMP/health"
           git init -q
           git checkout -q -b health
