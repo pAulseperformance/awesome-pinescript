@@ -206,6 +206,7 @@ The language used to be locked to the platform. These projects run a Pine script
 ## Development Tools
 
 - [Charts](https://chartsgg.com/pine-script-editor) - Runs Pine Script and MQL4/MQL5 indicators in the browser on any market, and exports Pine Script to MQL5.
+- [Pine Script Checker](https://supercharting.com/pine-script-checker) - Free online checker that compiles a Pine Script v6 script, runs it on sample candles and names the line of the first error. No sign-up.
 - [Pine Script lookahead checker](https://github.com/Stochastly/stochastly-calculators/tree/main/pine-script-lookahead-checker) - Open-source static check that flags `request.security` calls using `lookahead_on` without a history offset, which leak higher-timeframe values into past bars.
 - [Pine Script Pro](https://github.com/revanthpobala/pinescript-vscode-extension) - Professional language support for Pine Script: static analysis, type-infection checking and intelligent tooltips for advanced TradingView developers.
 - [Pineify](https://pineify.app/) - AI-assisted Pine Script v6 coding agent and visual no-code builder for indicators, strategies and screeners, with parameter optimization and backtest analysis.
