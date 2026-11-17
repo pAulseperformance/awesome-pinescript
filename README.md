@@ -22,6 +22,8 @@
 
 <p align="center"><sub>New here? Start with the <a href="https://www.tradingview.com/pine-script-docs/welcome/">v6 manual</a>, the <a href="https://www.pinecoders.com/faq_and_code/">PineCoders FAQ</a>, or <a href="#running-pine-outside-tradingview">what runs Pine outside TradingView</a>.</sub></p>
 
+<p align="center"><sub>How big is each one? <a href="https://github.com/pAulseperformance/awesome-pinescript/blob/health/ADOPTION.md">Stars, boosts, age and reviews</a>, measured, not claimed.</sub></p>
+
 <details>
 <summary><strong>Contents</strong> · 11 sections</summary>
 
@@ -175,7 +177,7 @@ closed-source ones are accounts you point a webhook at.
 - [Pine Connector](https://www.pineconnector.com/) - Auto-execute your TradingView alerts on MetaTrader 4 and 5.
 - [ProfitView](https://wiki.profitview.app/home) - Google Chrome extension that receives TV alerts and relays orders to crypto exchanges.
 - [PSStrategyX](https://www.tradingview.com/script/ZUqQdIKU-pAulseperformance-PSStrategyX/) - Indicator that backtests and then connects itself to AutoView, so you never write alert syntax by hand.
-- [Tickerly](https://tickerly.net/?partner=1898) - A fast and flexible service that enables you to automate any strategy on forex, stock, futures or cryptocurrency assets.
+- [Tickerly †](https://tickerly.net/?partner=1898) - A fast and flexible service that enables you to automate any strategy on forex, stock, futures or cryptocurrency assets.
 - [TradeSanta](https://tradesanta.com/) - Automated trading software for TradingView.
 - [Tradelab.ai](https://tradelab.ai/) - Free TradingView bot builder. Build the strategy you want, no compromises, no code skills required, free to start.
 - [TradersPost †](https://traderspost.io/?via=1) - Stocks, options, futures, crypto and paper trading with TradingView webhooks.
