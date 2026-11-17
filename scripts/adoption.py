@@ -197,31 +197,44 @@ def render(rows, cache):
            "script page, the domain's first capture from the Wayback Machine's CDX index, and ratings",
            "from Apple's public search API. `domain since` is when the DOMAIN first appeared, which is",
            "not always when the service did: a domain that changed hands carries the older date.", ""]
-    current = None
+    heads = ["resource", "evidence", "domain since", "reviewers"]
+
+    # Build one section at a time, then drop any column that is empty for that
+    # section: a table full of dashes reads as missing data rather than as honesty.
+    section, block = None, []
+    def flush():
+        if not block or section is None:
+            return []
+        keep = [0] + [i for i in range(1, 4) if any(r[i] != "—" for r in block)]
+        lines = ["", f"## {section}", "",
+                 "| " + " | ".join(heads[i] for i in keep) + " |",
+                 "| " + " | ".join("---" for _ in keep) + " |"]
+        for r in block:
+            lines.append("| " + " | ".join(r[i] for i in keep) + " |")
+        return lines
+
     for row in rows:
         if row["section"].lower() in RENDER_SKIP:
             continue
         c = cache.get(row["url"], {})
-        if row["section"] != current:
-            current = row["section"]
-            out += ["", f"## {current}", "",
-                    "| resource | evidence | domain since | reviewers |",
-                    "| --- | --- | --- | --- |"]
+        if row["section"] != section:
+            out += flush()
+            section, block = row["section"], []
         bits = []
         if c.get("stars") is not None:
             bits.append(f"★ {fmt(c['stars'])} on GitHub")
         if c.get("boosts") is not None:
             bits.append(f"{fmt(c['boosts'])} boosts")
+        since = c.get("first")
+        if "tradingview.com" in row["url"]:
+            since = None      # the host's first capture says nothing about a script published later
         tp, rv = c.get("trustpilot"), "—"
         if tp:
             rv = f"Trustpilot {tp['score']} ({fmt(tp['count'])}, {time.strftime('%b %Y', time.gmtime(tp.get('checked', 0)))})"
         elif c.get("app_score") is not None:
             rv = f"App Store {c['app_score']} ({fmt(c['app_count'])})"
-        since = c.get("first")
-        if "tradingview.com" in row["url"]:
-            since = None      # the host's first capture says nothing about a script published later
-        out.append(f"| [{row['name']}]({row['url']}) | {', '.join(bits) or '—'} | "
-                   f"{since or '—'} | {rv} |")
+        block.append([f"[{row['name']}]({row['url']})", ", ".join(bits) or "—", since or "—", rv])
+    out += flush()
     out += ["", "---", "",
             f"Measured {time.strftime('%d %B %Y', time.gmtime())} by `scripts/adoption.py`. A lookup that",
             "is refused keeps its previous reading rather than dropping out, and Trustpilot refuses",
