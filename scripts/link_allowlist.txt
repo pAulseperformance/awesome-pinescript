@@ -1,0 +1,12 @@
+# Hosts that refuse curl but are alive, verified another way.
+#
+# Only a transport failure (HTTP code 000) is excused here. A 404 or 410 on one
+# of these hosts still fails the check, so this file cannot hide a missing page.
+# Every line carries the method and the date it was verified. Re-verify and
+# re-date it, or delete the line.
+
+# 2026-11-17 openssl s_client -connect capitalise.ai:443 -> Verify return code 0 (ok), CN=capitalise.ai, Let's Encrypt, valid to 3 Jan 2027
+capitalise.ai
+
+# 2026-11-17 loaded in a real browser: title "TradersPost | Automated Trading Bot Platform", 12 KB of text
+traderspost.io
