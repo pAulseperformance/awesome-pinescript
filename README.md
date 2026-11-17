@@ -126,6 +126,7 @@
 - [OctoBot](https://octobot.online/) - *Open-source cryptocurrency trading robot that can receive alerts and turn them into orders on your favorite crypto exchanges.*
 - [Misc Collection](https://github.com/Roibal/Cryptocurrency-Trading-Bots-Python-Beginner-Advance) - *Various Python crypto bots, with a TradingView alert bot.*
 - [Quantium Signal](https://github.com/quantium-ai/signal) - *A self-hosted SMTP server that allows the use of TradingView alerts without the premium plan.*
+- [TradingView Webhook Receiver](https://github.com/tradevectorsrobots/tradingview-webhook-receiver) - *Self-hosted, dependency-free receiver that turns TradingView alerts into broker order requests, with a secret check, duplicate protection, size and price limits, a market-hours check, a kill switch and an audit log. Ships with a paper adapter only.*
 
 #### JavaScript
 
