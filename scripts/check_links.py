@@ -17,6 +17,7 @@ import argparse
 import re
 import subprocess
 import sys
+import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from urllib.parse import urlparse
@@ -58,15 +59,24 @@ def load_allow(path):
 
 
 def probe(url):
-    try:
-        out = subprocess.run(
-            ["curl", "-sS", "-L", "--max-time", "30", "-A", UA,
-             "-o", "/dev/null", "-w", "%{http_code}", url],
-            capture_output=True, text=True, timeout=45,
-        )
-        return url, (out.stdout.strip() or "000"), out.stderr.strip(), out.returncode
-    except subprocess.TimeoutExpired:
-        return url, "000", "timeout", 28
+    for attempt in (1, 2):
+        try:
+            out = subprocess.run(
+                ["curl", "-sS", "-L", "--max-time", "30", "-A", UA,
+                 "-o", "/dev/null", "-w", "%{http_code}", url],
+                capture_output=True, text=True, timeout=45,
+            )
+            code = out.stdout.strip() or "000"
+            # A 5xx on a big host is usually a bad moment, not a missing page.
+            if code.startswith("5") and attempt == 1:
+                time.sleep(3)
+                continue
+            return url, code, out.stderr.strip(), out.returncode
+        except subprocess.TimeoutExpired:
+            if attempt == 1:
+                continue
+            return url, "000", "timeout", 28
+    return url, "000", "no response", 7
 
 
 def main():
@@ -88,13 +98,18 @@ def main():
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
         results = list(pool.map(probe, found))
 
-    ok = gated = dead = excused = 0
+    ok = gated = dead = excused = flaky = 0
     for url, code, err, rc in results:
         if code.startswith(("2", "3")):
             ok += 1
         elif code in GATED:
             gated += 1
             print(f"  gated  {code}  {url}")
+        elif code.startswith("5"):
+            # Retried once already. A host having a bad minute is not a dead link,
+            # but it should be visible rather than silently counted as fine.
+            flaky += 1
+            print(f"  flaky  {code}  {url}")
         elif rc == 60:
             # The server sends an incomplete certificate chain. Browsers fetch the
             # missing intermediate and open the page, so this is not a dead link,
@@ -109,7 +124,7 @@ def main():
             reason = code if code != "000" else (err.splitlines()[0] if err else "no response")
             print(f"  DEAD   {code}  {url}  {reason}")
 
-    print(f"\n{ok} ok, {gated} gated, {excused} allowed, {dead} dead")
+    print(f"\n{ok} ok, {gated} gated, {flaky} flaky, {excused} allowed, {dead} dead")
     if dead:
         print("every DEAD line needs a second method before it is reported: "
               "openssl s_client, a real browser load, or the registry API")
