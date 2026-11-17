@@ -143,8 +143,6 @@ closed-source ones are accounts you point a webhook at.
 
 ### Open Source
 
-#### Python
-
 - [OctoBot](https://octobot.online/) - Open-source cryptocurrency trading robot that can receive alerts and turn them into orders on your favorite crypto exchanges.
 - [Python Bybit Pine Bot](https://github.com/Mtemi/Bybit-Auto-Trading-Bot-Ordes-placed-via-TradingView-Webhook) - Places orders (buy, sell, close, manage positions, TP, SL, TS and so on) on Bybit from TradingView webhook JSON alerts.
 - [TradingView Webhook Receiver](https://github.com/tradevectorsrobots/tradingview-webhook-receiver) - Self-hosted, dependency-free receiver that turns TradingView alerts into broker order requests, with a secret check, duplicate protection, size and price guards, and paper mode.
@@ -156,7 +154,7 @@ closed-source ones are accounts you point a webhook at.
 - [Capitalise.ai](https://capitalise.ai/) - Code-free automation: describe the rule in plain English, accept TradingView webhooks, and it trades it.
 - [Frostybot](https://frostybot.com/) - Minimal webhook endpoint designed to execute orders on a variety of well-known exchanges from TradingView alerts.
 - [PickMyTrade](https://pickmytrade.trade/) - Automates TradingView strategies and indicators for futures, connecting TradingView with Tradovate and Rithmic.
-- [Pine Connector](https://www.pineconnector.com/) - Auto-execute your TradingView alerts on MetaTrader 4 and 5.
+- [Pine Connector](https://www.pineconnector.com/) - Auto-execute your TradingView alerts on MetaTrader 4 and 5, across forex, indices and commodities.
 - [PSStrategyX](https://www.tradingview.com/script/ZUqQdIKU-pAulseperformance-PSStrategyX/) - Indicator that backtests and then connects itself to AutoView, so you never write alert syntax by hand.
 - [TradersPost †](https://traderspost.io/?via=1) - Stocks, options, futures, crypto and paper trading from TradingView webhooks, which is the only one here covering equities and a paper account.
 - [TV Hub](https://www.tv-hub.org/) - Executes TradingView alerts as spot and futures orders on Binance, Bybit, OKX, KuCoin, Coinbase, Bitget and Hyperliquid, with position size, stop loss and take profit.
