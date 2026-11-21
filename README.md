@@ -93,6 +93,7 @@
 - [Pine Coders Publications](https://www.tradingview.com/u/PineCoders/#published-scripts) - A plethora of useful techniques developed by the Pine Coders account.
 - [Pine Script Indicators Collection](https://github.com/everget/tradingview-pinescript-indicators) - A collection of various technical indicators.
 - [Pine Script To ThinkScript Repo](https://github.com/bingit2/TradingView-to-ThinkorSwim) - Repository of Pine Script indicators converted to TOS ThinkScript.
+- [SignalCheckerHQ TradingView Scripts](https://github.com/signalcheckerhq/tradingview-scripts) - Open-source Pine Script v6 indicators that show results after fees: signal calls, grid and DCA bots, liquidation vs stop, win rate vs payoff, stop size vs market noise and backtest robustness.
 - [Traderslist](https://www.traderslist.io) - Discover trading indicators, tools and algorithms.
 
 ### Volume
