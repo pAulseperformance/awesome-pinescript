@@ -1,0 +1,670 @@
+{
+ "checked_at": "2026-11-23T06:06:31Z",
+ "file": "README.md",
+ "total": 94,
+ "ok": 88,
+ "gated": 5,
+ "flaky": 0,
+ "allowed": 1,
+ "dead": 0,
+ "links": [
+  {
+   "url": "https://www.tradingview.com/pine-script-reference/v6/",
+   "section": "Official Resources",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/pine-script-docs/welcome/",
+   "section": "Official Resources",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/pine-script-docs/migration-guides/to-pine-version-6/",
+   "section": "Official Resources",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/pine-script-docs/v5/welcome/",
+   "section": "Official Resources",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/pine-script-docs/v4/welcome/",
+   "section": "Official Resources",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/pine-script-reference/v4/",
+   "section": "Official Resources",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/blog/en/category/market-analysis/pine/",
+   "section": "Official Resources",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/scripts/",
+   "section": "Community",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/scripts/editors-picks/",
+   "section": "Community",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/tradingview/awesome-tradingview",
+   "section": "Community",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/fqnXJggs-Cycles-Analysis/",
+   "section": "Interesting",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/XMKe97Vn-Developing-Market-Profile-TPO-Honestcowboy/",
+   "section": "Interesting",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/DU228Vjm-Flag-Finder/",
+   "section": "Interesting",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/7qjXp2op-Fundamentals-Graphing-Kioseff-Trading/",
+   "section": "Interesting",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/nW5oGfdO-ICT-Killzones-Pivots-TFO/",
+   "section": "Interesting",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/96Cld5iS-Trend-Correlation-Heatmap/",
+   "section": "Interesting",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/Rv3pibXO-TTP-VIX-Spy/",
+   "section": "Interesting",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/u/PineCoders/#published-scripts",
+   "section": "Collections",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/everget/tradingview-pinescript-indicators",
+   "section": "Collections",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/bingit2/TradingView-to-ThinkorSwim",
+   "section": "Collections",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.traderslist.io",
+   "section": "Collections",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/asr7nOb2-Liquidity-Sentiment-Profile-LuxAlgo/",
+   "section": "Volume",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/dJr8hv4v-Raindrops-Makit0/",
+   "section": "Volume",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/B3aLMAHh-Indices-Sector-SigmaSpikes/",
+   "section": "Screeners",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/Lr5QD0kK-Screener-Mean-Reversion-Channel/",
+   "section": "Screeners",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/0h0gKNcy-120x-ticker-screener-composite-tickers/",
+   "section": "Screeners",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/shner-elmo/TradingView-Screener",
+   "section": "Screeners",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/dgMumvhd-Black-Scholes-Options-Pricing-Model/",
+   "section": "Math",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/rRmrkRDr-Script-Stopwatch-PineCoders-FAQ/",
+   "section": "Tools",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/oTEP9DJF-Filter-Information-Box-PineCoders-FAQ/",
+   "section": "Tools",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/p3Bqr6fq-pp-Signal-Generator/",
+   "section": "Tools",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/ypAxpurY-Interactive-Motive-Wave-Checklist/",
+   "section": "Tools",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/O6LCkLTf-Textmate-Language-for-Pine-Script-v5-2023-05/",
+   "section": "Tools",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/fhTLDun5-Portfolio-Backtester-Engine/",
+   "section": "Strategies",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/jjhUHcje-Stepped-trailing-strategy-example/",
+   "section": "Strategies",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/IHVPG6TS-Stop-loss-and-Take-Profit-in-example/",
+   "section": "Strategies",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/xTHx0lQy-LibraryStopwatch/",
+   "section": "Libraries",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/Roibal/Cryptocurrency-Trading-Bots-Python-Beginner-Advance",
+   "section": "Python",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://octobot.online/",
+   "section": "Python",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/Mtemi/Bybit-Auto-Trading-Bot-Ordes-placed-via-TradingView-Webhook",
+   "section": "Python",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/kzh-dev/pine-bot-client",
+   "section": "Python",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/tradevectorsrobots/tradingview-webhook-receiver",
+   "section": "Python",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/tacyarg/tradingview-webhooks",
+   "section": "JavaScript",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/ottodevs/instabot-trader",
+   "section": "JavaScript",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/IAMtheIAM/autoview-tradingview-chrome-docker-bot",
+   "section": "Google Chrome",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://3commas.io/",
+   "section": "Closed Source",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://algoway.trade/",
+   "section": "Closed Source",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.altrady.com/features/signal-bot",
+   "section": "Closed Source",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://autoview.with.pink/",
+   "section": "Closed Source",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://capitalise.ai/",
+   "section": "Closed Source",
+   "status": "allowed",
+   "code": "000",
+   "reason": "transport failure, allowlisted"
+  },
+  {
+   "url": "https://cornix.io/",
+   "section": "Closed Source",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.cryptohopper.com/",
+   "section": "Closed Source",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://frostybot.com/",
+   "section": "Closed Source",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.mizar.com/",
+   "section": "Closed Source",
+   "status": "gated",
+   "code": "403",
+   "reason": "403"
+  },
+  {
+   "url": "https://pickmytrade.trade/",
+   "section": "Closed Source",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.pineconnector.com/",
+   "section": "Closed Source",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://wiki.profitview.app/home",
+   "section": "Closed Source",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/script/ZUqQdIKU-pAulseperformance-PSStrategyX/",
+   "section": "Closed Source",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://tickerly.net/?partner=1898",
+   "section": "Closed Source",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://tradesanta.com/",
+   "section": "Closed Source",
+   "status": "gated",
+   "code": "403",
+   "reason": "403"
+  },
+  {
+   "url": "https://tradelab.ai/",
+   "section": "Closed Source",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://traderspost.io/?via=1",
+   "section": "Closed Source",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingconnector.com/",
+   "section": "Closed Source",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://tradingview.to/",
+   "section": "Closed Source",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tv-hub.org/",
+   "section": "Closed Source",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://alertatron.com/",
+   "section": "Alerts & Notifications",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/dzianisv/mkt-alerts",
+   "section": "Alerts & Notifications",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/fabston/TradingView-Webhook-Bot",
+   "section": "Alerts & Notifications",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/quantium-ai/signal",
+   "section": "Alerts & Notifications",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/LuxAlgo/PineTS",
+   "section": "Running Pine Outside TradingView",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/PyneSys/pynecore",
+   "section": "Running Pine Outside TradingView",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/pineforge-4pass/pineforge-engine",
+   "section": "Running Pine Outside TradingView",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/be-thomas/OpenPineScript",
+   "section": "Running Pine Outside TradingView",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/degenview/degenview",
+   "section": "Running Pine Outside TradingView",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://chartsgg.com/pine-script-editor",
+   "section": "Development Tools",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/Stochastly/stochastly-calculators/tree/main/pine-script-lookahead-checker",
+   "section": "Development Tools",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/revanthpobala/pinescript-vscode-extension",
+   "section": "Development Tools",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.pinegen.ai/",
+   "section": "Development Tools",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://pineify.app/",
+   "section": "Development Tools",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/deathlyface/python-tradingview-ta",
+   "section": "Development Tools",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/daviddme/tradingview-indicator-search-mcp-server",
+   "section": "Development Tools",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/Roboquant-AI/tradingview-optimizer",
+   "section": "Development Tools",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.tradingview.com/chart/SSP/bquN1v9X-Script-Moderation-Q-A/",
+   "section": "Style Guides & Best Practices",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.pinecoders.com/techniques/script_description/",
+   "section": "Style Guides & Best Practices",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.pinecoders.com/coding_conventions/",
+   "section": "Style Guides & Best Practices",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://backtest-rookies.com/category/tradingview/",
+   "section": "Learning Resources",
+   "status": "gated",
+   "code": "000",
+   "reason": "incomplete certificate chain"
+  },
+  {
+   "url": "https://www.pinecoders.com/techniques/dsp/",
+   "section": "Learning Resources",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.pinecoders.com/faq_and_code/",
+   "section": "Learning Resources",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://kodify.net/tradingview-programming-articles/",
+   "section": "Learning Resources",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/pinecoders/pine-utils",
+   "section": "Learning Resources",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://www.pinecoders.com/",
+   "section": "Learning Resources",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://stackoverflow.com/questions/tagged/pine-script",
+   "section": "Learning Resources",
+   "status": "gated",
+   "code": "403",
+   "reason": "403"
+  },
+  {
+   "url": "https://www.tradingview.com/pine-script-docs/en/v5/concepts/Repainting.html",
+   "section": "Learning Resources",
+   "status": "ok",
+   "code": "200",
+   "reason": "200"
+  },
+  {
+   "url": "https://github.com/pAulseperformance/awesome-pinescript/blob/master/.github/CONTRIBUTING.md",
+   "section": "Contributing",
+   "status": "gated",
+   "code": "429",
+   "reason": "429"
+  }
+ ]
+}

@@ -1,0 +1,859 @@
+{
+ "host:3commas.io": {
+  "checked": 1794899023,
+  "first": "2018",
+  "tp_blocked": 1794899129
+ },
+ "host:alertatron.com": {
+  "checked": 1794899080,
+  "first": null,
+  "tp_blocked": 1794899133
+ },
+ "host:algoway.trade": {
+  "checked": 1794899025,
+  "first": "2024",
+  "tp_blocked": 1794899129
+ },
+ "host:altrady.com": {
+  "checked": 1794899032,
+  "first": "2019",
+  "tp_blocked": 1794899129
+ },
+ "host:autoview.with.pink": {
+  "checked": 1794899033,
+  "first": "2016",
+  "tp_blocked": 1794899129
+ },
+ "host:backtest-rookies.com": {
+  "checked": 1794899120,
+  "first": "2019",
+  "tp_blocked": 1794899135
+ },
+ "host:capitalise.ai": {
+  "checked": 1794899035,
+  "first": "2017",
+  "tp_blocked": 1794899130
+ },
+ "host:chartsgg.com": {
+  "checked": 1794899089,
+  "first": null,
+  "tp_blocked": 1794899134
+ },
+ "host:cornix.io": {
+  "checked": 1794899037,
+  "first": "2019",
+  "tp_blocked": 1794899130
+ },
+ "host:cryptohopper.com": {
+  "checked": 1794899046,
+  "first": "2017",
+  "tp_blocked": 1794899130
+ },
+ "host:frostybot.com": {
+  "checked": 1794899048,
+  "first": "2012",
+  "tp_blocked": 1794899130
+ },
+ "host:github.com": {
+  "tp_blocked": 1794899128
+ },
+ "host:kodify.net": {
+  "checked": 1794899122,
+  "first": "2012",
+  "tp_blocked": 1794899135
+ },
+ "host:mizar.com": {
+  "checked": 1794899050,
+  "first": "1997",
+  "tp_blocked": 1794899131
+ },
+ "host:octobot.online": {
+  "checked": 1794899019,
+  "first": "2021",
+  "tp_blocked": 1794899128
+ },
+ "host:pickmytrade.trade": {
+  "checked": 1794899054,
+  "first": "2024",
+  "tp_blocked": 1794899131
+ },
+ "host:pinecoders.com": {
+  "checked": 1794899118,
+  "first": "2019",
+  "tp_blocked": 1794899134
+ },
+ "host:pineconnector.com": {
+  "checked": 1794899056,
+  "first": "2021",
+  "tp_blocked": 1794899131
+ },
+ "host:pinegen.ai": {
+  "checked": 1794899094,
+  "first": "2025",
+  "tp_blocked": 1794899134
+ },
+ "host:pineify.app": {
+  "checked": 1794899095,
+  "first": "2024",
+  "tp_blocked": 1794899134
+ },
+ "host:stackoverflow.com": {
+  "checked": 1794899126,
+  "first": "2004",
+  "tp_blocked": 1794899135
+ },
+ "host:tickerly.net": {
+  "checked": 1794899059,
+  "first": "2022",
+  "tp_blocked": 1794899132
+ },
+ "host:tradelab.ai": {
+  "checked": 1794899063,
+  "first": "2021",
+  "tp_blocked": 1794899132
+ },
+ "host:traderslist.io": {
+  "checked": 1794899017,
+  "first": "2024",
+  "tp_blocked": 1794899128
+ },
+ "host:traderspost.io": {
+  "checked": 1794899064,
+  "first": "2020",
+  "tp_blocked": 1794899132
+ },
+ "host:tradesanta.com": {
+  "checked": 1794899061,
+  "first": "2014",
+  "tp_blocked": 1794899132
+ },
+ "host:tradingconnector.com": {
+  "checked": 1794899066,
+  "first": "2019",
+  "tp_blocked": 1794899133
+ },
+ "host:tradingview.com": {
+  "checked": 1794899013,
+  "first": "2003",
+  "tp_blocked": 1794899128
+ },
+ "host:tradingview.to": {
+  "checked": 1794899072,
+  "first": null,
+  "tp_blocked": 1794899133
+ },
+ "host:tv-hub.org": {
+  "checked": 1794899074,
+  "first": "2020",
+  "tp_blocked": 1794899133
+ },
+ "host:wiki.profitview.app": {
+  "checked": 1794899058,
+  "first": "2019",
+  "tp_blocked": 1794899131
+ },
+ "https://3commas.io/": {
+  "app_count": 741,
+  "app_score": 4.7,
+  "checked": 1794899003,
+  "first": "2018",
+  "name": "3Commas",
+  "section": "Automated Order Execution",
+  "url": "https://3commas.io/"
+ },
+ "https://alertatron.com/": {
+  "checked": 1794899004,
+  "name": "Alertatron",
+  "section": "Alerts & Notifications",
+  "url": "https://alertatron.com/"
+ },
+ "https://algoway.trade/": {
+  "checked": 1794899003,
+  "first": "2024",
+  "name": "AlgoWay",
+  "section": "Automated Order Execution",
+  "url": "https://algoway.trade/"
+ },
+ "https://autoview.with.pink/": {
+  "checked": 1794899003,
+  "first": "2016",
+  "name": "AutoView",
+  "section": "Automated Order Execution",
+  "url": "https://autoview.with.pink/"
+ },
+ "https://backtest-rookies.com/category/tradingview/": {
+  "checked": 1794899004,
+  "first": "2019",
+  "name": "Backtest Rookies",
+  "section": "Learning Resources",
+  "url": "https://backtest-rookies.com/category/tradingview/"
+ },
+ "https://capitalise.ai/": {
+  "checked": 1794899003,
+  "first": "2017",
+  "name": "Capitalise.ai",
+  "section": "Automated Order Execution",
+  "url": "https://capitalise.ai/"
+ },
+ "https://chartsgg.com/pine-script-editor": {
+  "checked": 1794899004,
+  "name": "Charts",
+  "section": "Development Tools",
+  "url": "https://chartsgg.com/pine-script-editor"
+ },
+ "https://cornix.io/": {
+  "app_count": 86,
+  "app_score": 4.7,
+  "checked": 1794899003,
+  "first": "2019",
+  "name": "Cornix",
+  "section": "Automated Order Execution",
+  "url": "https://cornix.io/"
+ },
+ "https://frostybot.com/": {
+  "checked": 1794899003,
+  "first": "2012",
+  "name": "Frostybot",
+  "section": "Automated Order Execution",
+  "url": "https://frostybot.com/"
+ },
+ "https://github.com/IAMtheIAM/autoview-tradingview-chrome-docker-bot": {
+  "checked": 1794899003,
+  "first": "2018",
+  "name": "Autoview Chrome Docker Bot",
+  "section": "Automated Order Execution",
+  "stars": 88,
+  "url": "https://github.com/IAMtheIAM/autoview-tradingview-chrome-docker-bot"
+ },
+ "https://github.com/LuxAlgo/PineTS": {
+  "checked": 1794899004,
+  "first": "2025",
+  "name": "PineTS",
+  "section": "Running Pine Outside TradingView",
+  "stars": 959,
+  "url": "https://github.com/LuxAlgo/PineTS"
+ },
+ "https://github.com/Mtemi/Bybit-Auto-Trading-Bot-Ordes-placed-via-TradingView-Webhook": {
+  "checked": 1794899003,
+  "first": "2020",
+  "name": "Python Bybit Pine Bot",
+  "section": "Automated Order Execution",
+  "stars": 530,
+  "url": "https://github.com/Mtemi/Bybit-Auto-Trading-Bot-Ordes-placed-via-TradingView-Webhook"
+ },
+ "https://github.com/PyneSys/pynecore": {
+  "checked": 1794899004,
+  "first": "2025",
+  "name": "pynecore",
+  "section": "Running Pine Outside TradingView",
+  "stars": 270,
+  "url": "https://github.com/PyneSys/pynecore"
+ },
+ "https://github.com/Roboquant-AI/tradingview-optimizer": {
+  "checked": 1794899004,
+  "first": "2026",
+  "name": "TradingView strategy optimizer",
+  "section": "Development Tools",
+  "stars": 60,
+  "url": "https://github.com/Roboquant-AI/tradingview-optimizer"
+ },
+ "https://github.com/Roibal/Cryptocurrency-Trading-Bots-Python-Beginner-Advance": {
+  "checked": 1794899003,
+  "first": "2018",
+  "name": "Misc Collection",
+  "section": "Automated Order Execution",
+  "stars": 1445,
+  "url": "https://github.com/Roibal/Cryptocurrency-Trading-Bots-Python-Beginner-Advance"
+ },
+ "https://github.com/Stochastly/stochastly-calculators/tree/main/pine-script-lookahead-checker": {
+  "checked": 1794899004,
+  "first": "2026",
+  "name": "Pine Script lookahead checker",
+  "section": "Development Tools",
+  "stars": 0,
+  "url": "https://github.com/Stochastly/stochastly-calculators/tree/main/pine-script-lookahead-checker"
+ },
+ "https://github.com/be-thomas/OpenPineScript": {
+  "checked": 1794899004,
+  "first": "2024",
+  "name": "OpenPineScript",
+  "section": "Running Pine Outside TradingView",
+  "stars": 78,
+  "url": "https://github.com/be-thomas/OpenPineScript"
+ },
+ "https://github.com/bingit2/TradingView-to-ThinkorSwim": {
+  "checked": 1794899002,
+  "first": "2019",
+  "name": "Pine Script To ThinkScript Repo",
+  "section": "Indicators",
+  "stars": 147,
+  "url": "https://github.com/bingit2/TradingView-to-ThinkorSwim"
+ },
+ "https://github.com/daviddme/tradingview-indicator-search-mcp-server": {
+  "checked": 1794899004,
+  "first": "2026",
+  "name": "TradingView MCP server",
+  "section": "Development Tools",
+  "stars": 138,
+  "url": "https://github.com/daviddme/tradingview-indicator-search-mcp-server"
+ },
+ "https://github.com/deathlyface/python-tradingview-ta": {
+  "checked": 1794899004,
+  "first": "2020",
+  "name": "Python TradingView TA",
+  "section": "Development Tools",
+  "stars": 1260,
+  "url": "https://github.com/deathlyface/python-tradingview-ta"
+ },
+ "https://github.com/degenview/degenview": {
+  "checked": 1794899004,
+  "first": "2026",
+  "name": "DegenView",
+  "section": "Running Pine Outside TradingView",
+  "stars": 67,
+  "url": "https://github.com/degenview/degenview"
+ },
+ "https://github.com/dzianisv/mkt-alerts": {
+  "checked": 1794899004,
+  "first": "2026",
+  "name": "mkt-alerts",
+  "section": "Alerts & Notifications",
+  "stars": 3,
+  "url": "https://github.com/dzianisv/mkt-alerts"
+ },
+ "https://github.com/everget/tradingview-pinescript-indicators": {
+  "checked": 1794899002,
+  "first": "2018",
+  "name": "Pine Script Indicators Collection",
+  "section": "Indicators",
+  "stars": 966,
+  "url": "https://github.com/everget/tradingview-pinescript-indicators"
+ },
+ "https://github.com/fabston/TradingView-Webhook-Bot": {
+  "checked": 1794899004,
+  "first": "2020",
+  "name": "Python Webhook Alert Provider",
+  "section": "Alerts & Notifications",
+  "stars": 1910,
+  "url": "https://github.com/fabston/TradingView-Webhook-Bot"
+ },
+ "https://github.com/kzh-dev/pine-bot-client": {
+  "checked": 1794899003,
+  "first": "2019",
+  "name": "Python Pine Bot Client",
+  "section": "Automated Order Execution",
+  "stars": 200,
+  "url": "https://github.com/kzh-dev/pine-bot-client"
+ },
+ "https://github.com/ottodevs/instabot-trader": {
+  "checked": 1794899003,
+  "first": "2018",
+  "name": "Instabot Trader",
+  "section": "Automated Order Execution",
+  "stars": 9,
+  "url": "https://github.com/ottodevs/instabot-trader"
+ },
+ "https://github.com/pinecoders/pine-utils": {
+  "checked": 1794899004,
+  "first": "2019",
+  "name": "Pine Coders Utils",
+  "section": "Learning Resources",
+  "stars": 444,
+  "url": "https://github.com/pinecoders/pine-utils"
+ },
+ "https://github.com/pineforge-4pass/pineforge-engine": {
+  "checked": 1794899004,
+  "first": "2026",
+  "name": "pineforge-engine",
+  "section": "Running Pine Outside TradingView",
+  "stars": 213,
+  "url": "https://github.com/pineforge-4pass/pineforge-engine"
+ },
+ "https://github.com/quantium-ai/signal": {
+  "checked": 1794899004,
+  "first": "2025",
+  "name": "Quantium Signal",
+  "section": "Alerts & Notifications",
+  "stars": 22,
+  "url": "https://github.com/quantium-ai/signal"
+ },
+ "https://github.com/revanthpobala/pinescript-vscode-extension": {
+  "checked": 1794899004,
+  "first": "2026",
+  "name": "Pine Script Pro",
+  "section": "Development Tools",
+  "stars": 39,
+  "url": "https://github.com/revanthpobala/pinescript-vscode-extension"
+ },
+ "https://github.com/shner-elmo/TradingView-Screener": {
+  "checked": 1794899002,
+  "first": "2022",
+  "name": "TradingView Screener",
+  "section": "Indicators",
+  "stars": 1362,
+  "url": "https://github.com/shner-elmo/TradingView-Screener"
+ },
+ "https://github.com/tacyarg/tradingview-webhooks": {
+  "checked": 1794899003,
+  "first": "2019",
+  "name": "Fundingrate Backend",
+  "section": "Automated Order Execution",
+  "stars": 54,
+  "url": "https://github.com/tacyarg/tradingview-webhooks"
+ },
+ "https://github.com/tradevectorsrobots/tradingview-webhook-receiver": {
+  "checked": 1794899003,
+  "first": "2026",
+  "name": "TradingView Webhook Receiver",
+  "section": "Automated Order Execution",
+  "stars": 0,
+  "url": "https://github.com/tradevectorsrobots/tradingview-webhook-receiver"
+ },
+ "https://github.com/tradingview/awesome-tradingview": {
+  "checked": 1794899002,
+  "first": "2020",
+  "name": "Awesome TradingView",
+  "section": "Community",
+  "stars": 831,
+  "url": "https://github.com/tradingview/awesome-tradingview"
+ },
+ "https://kodify.net/tradingview-programming-articles/": {
+  "checked": 1794899004,
+  "first": "2012",
+  "name": "Kodify",
+  "section": "Learning Resources",
+  "url": "https://kodify.net/tradingview-programming-articles/"
+ },
+ "https://octobot.online/": {
+  "checked": 1794899003,
+  "first": "2021",
+  "name": "OctoBot",
+  "section": "Automated Order Execution",
+  "url": "https://octobot.online/"
+ },
+ "https://pickmytrade.trade/": {
+  "checked": 1794899003,
+  "first": "2024",
+  "name": "PickMyTrade",
+  "section": "Automated Order Execution",
+  "url": "https://pickmytrade.trade/"
+ },
+ "https://pineify.app/": {
+  "checked": 1794899004,
+  "first": "2024",
+  "name": "Pineify",
+  "section": "Development Tools",
+  "url": "https://pineify.app/"
+ },
+ "https://stackoverflow.com/questions/tagged/pine-script": {
+  "checked": 1794899004,
+  "first": "2004",
+  "name": "Stack Overflow",
+  "section": "Learning Resources",
+  "url": "https://stackoverflow.com/questions/tagged/pine-script"
+ },
+ "https://tickerly.net/?partner=1898": {
+  "checked": 1794899003,
+  "first": "2022",
+  "name": "Tickerly \u2020",
+  "section": "Automated Order Execution",
+  "url": "https://tickerly.net/?partner=1898"
+ },
+ "https://tradelab.ai/": {
+  "checked": 1794899003,
+  "first": "2021",
+  "name": "Tradelab.ai",
+  "section": "Automated Order Execution",
+  "url": "https://tradelab.ai/"
+ },
+ "https://traderspost.io/?via=1": {
+  "checked": 1794899003,
+  "first": "2020",
+  "name": "TradersPost \u2020",
+  "section": "Automated Order Execution",
+  "url": "https://traderspost.io/?via=1"
+ },
+ "https://tradesanta.com/": {
+  "checked": 1794899003,
+  "first": "2014",
+  "name": "TradeSanta",
+  "section": "Automated Order Execution",
+  "url": "https://tradesanta.com/"
+ },
+ "https://tradingview.to/": {
+  "checked": 1794899004,
+  "name": "TradingView.to",
+  "section": "Automated Order Execution",
+  "url": "https://tradingview.to/"
+ },
+ "https://wiki.profitview.app/home": {
+  "checked": 1794899003,
+  "first": "2019",
+  "name": "ProfitView",
+  "section": "Automated Order Execution",
+  "url": "https://wiki.profitview.app/home"
+ },
+ "https://www.altrady.com/features/signal-bot": {
+  "checked": 1794899003,
+  "first": "2019",
+  "name": "Altrady",
+  "section": "Automated Order Execution",
+  "url": "https://www.altrady.com/features/signal-bot"
+ },
+ "https://www.cryptohopper.com/": {
+  "app_count": 839,
+  "app_score": 4.4,
+  "checked": 1794899003,
+  "first": "2017",
+  "name": "Cryptohopper",
+  "section": "Automated Order Execution",
+  "url": "https://www.cryptohopper.com/"
+ },
+ "https://www.mizar.com/": {
+  "checked": 1794899003,
+  "first": "1997",
+  "name": "Mizar",
+  "section": "Automated Order Execution",
+  "url": "https://www.mizar.com/"
+ },
+ "https://www.pinecoders.com/": {
+  "checked": 1794899004,
+  "first": "2019",
+  "name": "Pine Coders Website",
+  "section": "Learning Resources",
+  "url": "https://www.pinecoders.com/"
+ },
+ "https://www.pinecoders.com/coding_conventions/": {
+  "checked": 1794899004,
+  "first": "2019",
+  "name": "Writing Good Pine",
+  "section": "Style Guides & Best Practices",
+  "url": "https://www.pinecoders.com/coding_conventions/"
+ },
+ "https://www.pinecoders.com/faq_and_code/": {
+  "checked": 1794899004,
+  "first": "2019",
+  "name": "FAQ",
+  "section": "Learning Resources",
+  "url": "https://www.pinecoders.com/faq_and_code/"
+ },
+ "https://www.pinecoders.com/techniques/dsp/": {
+  "checked": 1794899004,
+  "first": "2019",
+  "name": "Digital Signal Processing",
+  "section": "Learning Resources",
+  "url": "https://www.pinecoders.com/techniques/dsp/"
+ },
+ "https://www.pinecoders.com/techniques/script_description/": {
+  "checked": 1794899004,
+  "first": "2019",
+  "name": "Writing A Good Description",
+  "section": "Style Guides & Best Practices",
+  "url": "https://www.pinecoders.com/techniques/script_description/"
+ },
+ "https://www.pineconnector.com/": {
+  "checked": 1794899003,
+  "first": "2021",
+  "name": "Pine Connector",
+  "section": "Automated Order Execution",
+  "url": "https://www.pineconnector.com/"
+ },
+ "https://www.pinegen.ai/": {
+  "checked": 1794899004,
+  "first": "2025",
+  "name": "PineGen AI",
+  "section": "Development Tools",
+  "url": "https://www.pinegen.ai/"
+ },
+ "https://www.traderslist.io": {
+  "checked": 1794899002,
+  "first": "2024",
+  "name": "Traderslist",
+  "section": "Indicators",
+  "url": "https://www.traderslist.io"
+ },
+ "https://www.tradingconnector.com/": {
+  "checked": 1794899003,
+  "first": "2019",
+  "name": "TradingConnector",
+  "section": "Automated Order Execution",
+  "url": "https://www.tradingconnector.com/"
+ },
+ "https://www.tradingview.com/blog/en/category/market-analysis/pine/": {
+  "checked": 1794899001,
+  "first": "2003",
+  "name": "TV Blog",
+  "section": "Official Resources",
+  "url": "https://www.tradingview.com/blog/en/category/market-analysis/pine/"
+ },
+ "https://www.tradingview.com/chart/SSP/bquN1v9X-Script-Moderation-Q-A/": {
+  "checked": 1794899004,
+  "first": "2003",
+  "name": "Script Moderation",
+  "section": "Style Guides & Best Practices",
+  "url": "https://www.tradingview.com/chart/SSP/bquN1v9X-Script-Moderation-Q-A/"
+ },
+ "https://www.tradingview.com/pine-script-docs/en/v5/concepts/Repainting.html": {
+  "checked": 1794899004,
+  "first": "2003",
+  "name": "What is Repainting?",
+  "section": "Learning Resources",
+  "url": "https://www.tradingview.com/pine-script-docs/en/v5/concepts/Repainting.html"
+ },
+ "https://www.tradingview.com/pine-script-docs/migration-guides/to-pine-version-6/": {
+  "checked": 1794899001,
+  "first": "2003",
+  "name": "Migrating to Pine Script v6",
+  "section": "Official Resources",
+  "url": "https://www.tradingview.com/pine-script-docs/migration-guides/to-pine-version-6/"
+ },
+ "https://www.tradingview.com/pine-script-docs/v4/welcome/": {
+  "checked": 1794899001,
+  "first": "2003",
+  "name": "Pine Script v4 User Manual",
+  "section": "Official Resources",
+  "url": "https://www.tradingview.com/pine-script-docs/v4/welcome/"
+ },
+ "https://www.tradingview.com/pine-script-docs/v5/welcome/": {
+  "checked": 1794899001,
+  "first": "2003",
+  "name": "Pine Script v5 User Manual",
+  "section": "Official Resources",
+  "url": "https://www.tradingview.com/pine-script-docs/v5/welcome/"
+ },
+ "https://www.tradingview.com/pine-script-docs/welcome/": {
+  "checked": 1794899001,
+  "first": "2003",
+  "name": "Pine Script v6 User Manual",
+  "section": "Official Resources",
+  "url": "https://www.tradingview.com/pine-script-docs/welcome/"
+ },
+ "https://www.tradingview.com/pine-script-reference/v4/": {
+  "checked": 1794899001,
+  "first": "2003",
+  "name": "Pine Script v4 Language Reference",
+  "section": "Official Resources",
+  "url": "https://www.tradingview.com/pine-script-reference/v4/"
+ },
+ "https://www.tradingview.com/pine-script-reference/v6/": {
+  "checked": 1794899001,
+  "first": "2003",
+  "name": "Pine Script v6 Language Reference",
+  "section": "Official Resources",
+  "url": "https://www.tradingview.com/pine-script-reference/v6/"
+ },
+ "https://www.tradingview.com/script/0h0gKNcy-120x-ticker-screener-composite-tickers/": {
+  "boosts": 1437,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "120 Ticker Screener",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/script/0h0gKNcy-120x-ticker-screener-composite-tickers/"
+ },
+ "https://www.tradingview.com/script/7qjXp2op-Fundamentals-Graphing-Kioseff-Trading/": {
+  "boosts": 1478,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Fundamentals Graphing",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/script/7qjXp2op-Fundamentals-Graphing-Kioseff-Trading/"
+ },
+ "https://www.tradingview.com/script/96Cld5iS-Trend-Correlation-Heatmap/": {
+  "boosts": 630,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Trend Correlation Heatmap",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/script/96Cld5iS-Trend-Correlation-Heatmap/"
+ },
+ "https://www.tradingview.com/script/B3aLMAHh-Indices-Sector-SigmaSpikes/": {
+  "boosts": 903,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Indices Sector Sigma Spikes",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/script/B3aLMAHh-Indices-Sector-SigmaSpikes/"
+ },
+ "https://www.tradingview.com/script/DU228Vjm-Flag-Finder/": {
+  "boosts": 4467,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Flag Finder",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/script/DU228Vjm-Flag-Finder/"
+ },
+ "https://www.tradingview.com/script/IHVPG6TS-Stop-loss-and-Take-Profit-in-example/": {
+  "boosts": 6885,
+  "checked": 1794899003,
+  "first": "2003",
+  "name": "Stop Loss and Take Profit",
+  "section": "Strategies",
+  "url": "https://www.tradingview.com/script/IHVPG6TS-Stop-loss-and-Take-Profit-in-example/"
+ },
+ "https://www.tradingview.com/script/Lr5QD0kK-Screener-Mean-Reversion-Channel/": {
+  "boosts": 6348,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Mean Reversion Channel",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/script/Lr5QD0kK-Screener-Mean-Reversion-Channel/"
+ },
+ "https://www.tradingview.com/script/O6LCkLTf-Textmate-Language-for-Pine-Script-v5-2023-05/": {
+  "boosts": 233,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Textmate Language for Pine Script v5",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/script/O6LCkLTf-Textmate-Language-for-Pine-Script-v5-2023-05/"
+ },
+ "https://www.tradingview.com/script/Rv3pibXO-TTP-VIX-Spy/": {
+  "boosts": 1586,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "TTP VIX Spy",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/script/Rv3pibXO-TTP-VIX-Spy/"
+ },
+ "https://www.tradingview.com/script/XMKe97Vn-Developing-Market-Profile-TPO-Honestcowboy/": {
+  "boosts": 1184,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Developing Market Profile",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/script/XMKe97Vn-Developing-Market-Profile-TPO-Honestcowboy/"
+ },
+ "https://www.tradingview.com/script/ZUqQdIKU-pAulseperformance-PSStrategyX/": {
+  "boosts": 339,
+  "checked": 1794899003,
+  "first": "2003",
+  "name": "PSStrategyX",
+  "section": "Automated Order Execution",
+  "url": "https://www.tradingview.com/script/ZUqQdIKU-pAulseperformance-PSStrategyX/"
+ },
+ "https://www.tradingview.com/script/asr7nOb2-Liquidity-Sentiment-Profile-LuxAlgo/": {
+  "boosts": 8939,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Liquidity Sentiment Profile",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/script/asr7nOb2-Liquidity-Sentiment-Profile-LuxAlgo/"
+ },
+ "https://www.tradingview.com/script/dJr8hv4v-Raindrops-Makit0/": {
+  "app_count": 247,
+  "app_score": 4.7,
+  "boosts": 5544,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Raindrops",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/script/dJr8hv4v-Raindrops-Makit0/"
+ },
+ "https://www.tradingview.com/script/dgMumvhd-Black-Scholes-Options-Pricing-Model/": {
+  "boosts": 1522,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Black Scholes",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/script/dgMumvhd-Black-Scholes-Options-Pricing-Model/"
+ },
+ "https://www.tradingview.com/script/fhTLDun5-Portfolio-Backtester-Engine/": {
+  "boosts": 2206,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Portfolio Backtesting Engine",
+  "section": "Strategies",
+  "url": "https://www.tradingview.com/script/fhTLDun5-Portfolio-Backtester-Engine/"
+ },
+ "https://www.tradingview.com/script/fqnXJggs-Cycles-Analysis/": {
+  "boosts": 1570,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Cycles Analysis",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/script/fqnXJggs-Cycles-Analysis/"
+ },
+ "https://www.tradingview.com/script/jjhUHcje-Stepped-trailing-strategy-example/": {
+  "boosts": 2960,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Stepped Trailing Stop Loss",
+  "section": "Strategies",
+  "url": "https://www.tradingview.com/script/jjhUHcje-Stepped-trailing-strategy-example/"
+ },
+ "https://www.tradingview.com/script/nW5oGfdO-ICT-Killzones-Pivots-TFO/": {
+  "boosts": 60677,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "ICT Killzones Pivots TFO",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/script/nW5oGfdO-ICT-Killzones-Pivots-TFO/"
+ },
+ "https://www.tradingview.com/script/oTEP9DJF-Filter-Information-Box-PineCoders-FAQ/": {
+  "boosts": 236,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Filter Response",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/script/oTEP9DJF-Filter-Information-Box-PineCoders-FAQ/"
+ },
+ "https://www.tradingview.com/script/p3Bqr6fq-pp-Signal-Generator/": {
+  "boosts": 155,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Signal Generator",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/script/p3Bqr6fq-pp-Signal-Generator/"
+ },
+ "https://www.tradingview.com/script/rRmrkRDr-Script-Stopwatch-PineCoders-FAQ/": {
+  "boosts": 302,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Script Stopwatch",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/script/rRmrkRDr-Script-Stopwatch-PineCoders-FAQ/"
+ },
+ "https://www.tradingview.com/script/xTHx0lQy-LibraryStopwatch/": {
+  "boosts": 94,
+  "checked": 1794899003,
+  "first": "2003",
+  "name": "Script Stopwatch",
+  "section": "Libraries",
+  "url": "https://www.tradingview.com/script/xTHx0lQy-LibraryStopwatch/"
+ },
+ "https://www.tradingview.com/script/ypAxpurY-Interactive-Motive-Wave-Checklist/": {
+  "boosts": 2820,
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Interactive Motive Wave Checklist",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/script/ypAxpurY-Interactive-Motive-Wave-Checklist/"
+ },
+ "https://www.tradingview.com/scripts/": {
+  "checked": 1794899001,
+  "first": "2003",
+  "name": "TV Public Scripts",
+  "section": "Community",
+  "url": "https://www.tradingview.com/scripts/"
+ },
+ "https://www.tradingview.com/scripts/editors-picks/": {
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Editors Picks",
+  "section": "Community",
+  "url": "https://www.tradingview.com/scripts/editors-picks/"
+ },
+ "https://www.tradingview.com/u/PineCoders/#published-scripts": {
+  "checked": 1794899002,
+  "first": "2003",
+  "name": "Pine Coders Publications",
+  "section": "Indicators",
+  "url": "https://www.tradingview.com/u/PineCoders/#published-scripts"
+ },
+ "https://www.tv-hub.org/": {
+  "checked": 1794899004,
+  "first": "2020",
+  "name": "TV Hub",
+  "section": "Automated Order Execution",
+  "url": "https://www.tv-hub.org/"
+ }
+}
