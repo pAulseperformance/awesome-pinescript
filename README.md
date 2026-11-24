@@ -93,6 +93,7 @@
 - [Pine Coders Publications](https://www.tradingview.com/u/PineCoders/#published-scripts) - A plethora of useful techniques developed by the Pine Coders account.
 - [Pine Script Indicators Collection](https://github.com/everget/tradingview-pinescript-indicators) - A collection of various technical indicators.
 - [Pine Script To ThinkScript Repo](https://github.com/bingit2/TradingView-to-ThinkorSwim) - Repository of Pine Script indicators converted to TOS ThinkScript.
+- [PipAtlas Pine Indicators](https://github.com/pipatlas26/pipatlas-trading-tools/tree/main/tradingview) - 12 open-source (MIT) Pine v5/v6 indicators: economic calendar lines, session ranges, previous day/week high-low, fair value gaps, liquidity sweeps, market structure (BOS/CHoCH), ATR stop and more.
 - [Traderslist](https://www.traderslist.io) - Discover trading indicators, tools and algorithms.
 
 ### Volume
