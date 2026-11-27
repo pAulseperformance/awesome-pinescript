@@ -85,6 +85,7 @@
 - [Flag Finder](https://www.tradingview.com/script/DU228Vjm-Flag-Finder/) - A technical analysis tool to identify bull and bear flags.
 - [Fundamentals Graphing](https://www.tradingview.com/script/7qjXp2op-Fundamentals-Graphing-Kioseff-Trading/) - Really cool way of graphing with Pine Script!
 - [ICT Killzones Pivots TFO](https://www.tradingview.com/script/nW5oGfdO-ICT-Killzones-Pivots-TFO/) - Identifies ICT killzones while storing their highs and lows for future reference, until traded through.
+- [Sessions, Killzones, Opening Range and Dashboard](https://www.tradingview.com/script/aK5XyDPb-Sessions-Killzones-Opening-Range-and-Dashboard-with-Auto-DST/) - Open-source map of the trading day: sessions and killzones in each city's local time with automatic daylight-saving shifts, previous-period levels, an opening range and a dashboard.
 - [Trend Correlation Heatmap](https://www.tradingview.com/script/96Cld5iS-Trend-Correlation-Heatmap/) - Displays the correlation of different assets over several timeframes on the chart.
 - [TTP VIX Spy](https://www.tradingview.com/script/Rv3pibXO-TTP-VIX-Spy/) - Uses data from VIX to better time entries in the market.
 
